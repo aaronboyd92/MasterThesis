@@ -19,6 +19,7 @@
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc}
 \usepackage{relsize}
+\usepackage{hyperref}
 %Style des têtes de section, headings, chapitre
 \headstyles{komalike}
 \nouppercaseheads
@@ -69,21 +70,23 @@ Master Math\'ematiques Informatique - sp\'ecialit\'e Informatique \\
 option \optionB  \end{center}\vfill}
 % End of title page formatting
 
-\option{$<$option-name$>$}
-\title{ Project Title }%\\\vspace{-1ex}\rule{10ex}{0.5pt} \\sub-title} 
-\author{Author Name}
-\date{ $<$Defense Date$>$} % Delete this line to display the current date
+\option{Artificial Intelligence and Semantic Web}
+\title{PDDL4J: Test and Analysis of Algorithms and Heuristics }%\\\vspace{-1ex}\rule{10ex}{0.5pt} \\sub-title} 
+\author{Samuel Aaron Boyd}
+\date{23rd June 2016} % Delete this line to display the current date
 \jury{
-Research project performed at $<$lab-name$>$ \\\medskip
+Research project performed at Laboratoire d'Informatique de Grenoble \\\medskip
 Under the supervision of:\\
-$<$supervisor's first-name and last-name, supervisor's institution$>$\\\medskip
+Damien Pellier and Humbert Fiorino, LIG Labs: Team MAGMA\\\medskip
 Defended before a jury composed of:\\
-$[$Prof/Dr/Mrs/Mr$]$ $<$first-name last-name$>$\\
-$[$Prof/Dr/Mrs/Mr$]$ $<$first-name last-name$>$\\
-$[$Prof/Dr/Mrs/Mr$]$ $<$first-name last-name$>$\\
-$[$Prof/Dr/Mrs/Mr$]$ $<$first-name last-name$>$\\
+Prof E. Gaussier\\
+Prof T. Ropars\\
+Prof M. Reza Amini\\
+Prof N. Brauner\\
+Prof J. Euzenat\\
+Prof A. Demeure\\
 }
-\session{$[$June/September$]$\hfill year}
+\session{ June \hfill 2016}
 
 
 %%% BEGIN DOCUMENT
@@ -99,20 +102,19 @@ $[$Prof/Dr/Mrs/Mr$]$ $<$first-name last-name$>$\\
 
 \renewcommand{\abstracttextfont}{\normalfont}
 \abstractintoc
-\begin{abstract} 
-Text 
-\end{abstract}
-\abstractintoc
-\renewcommand\abstractname{R\'esum\'e}
 \begin{abstract} \selectlanguage{english}
-Texte 
+PDDL4J is an open source library that is used for finding solutions to classical planning problems. The main way that this is achieved is by using a search algorithm and a heuristic to guide the search. From research conducted we discovered that were better search algorithms that could be used instead of the current A* algorithm. What we found was that implementing a new search algorithm provided more problems solved overall as well as completing the problems in a faster time and using less memory, as well as discovering some interesting anomalies between admissible and not admissible heuristics. Within this thesis we implemented Greedy Best First Search with Enforced Hill Climbing search algorithm as well as the $H^m$ heuristic.  
 \end{abstract}
 \selectlanguage{english}% french si rapport en français
+\clearpage
+\renewcommand{\abstractname}{Acknowledgements}
+\begin{abstract}
+I would like to thank my family, friends and the best girlfriend ever for helping me get to where I am today. Without them, all of this would not be possible, and I am eternally grateful.
 
-
-
-\cleardoublepage
-
+Would also like to thank Damien and Humbert for giving me the opportunity to work within team MAGMA and with the PDDL4J library.
+\end{abstract}
+\clearpage
+\listoffigures
 \tableofcontents* % the asterisk means that the table of contents itself isn't put into the ToC
 \normalsize
 
@@ -129,7 +131,7 @@ Texte
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
 %----------------------------------------------------------------------------------------
-
+\printbibliography[heading=bibintoc]
 \appendix % Cue to tell LaTeX that the following "chapters" are Appendices
 
 % Include the appendices of the thesis as separate files from the Appendices folder
@@ -142,7 +144,7 @@ Texte
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
-\printbibliography[heading=bibintoc]
+
 
 
 

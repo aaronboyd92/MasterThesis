@@ -127,6 +127,15 @@ If we look at Zenotravel from IPC3 Figure\ref{fig:ZenoTravelDomainTime}, GBFS wi
     \label{fig:ZenoTravelDomainMemory}
 \end{figure}
 Then in contrast in Figure\ref{fig:ZenoTravelDomainMemory}, as the problems get harder, the memory consumption usually goes up along with it, which is what happened to A* but GBFS with EHC kept a steady increase of memory consumption with a small spike at problem 19. We can see by all the graphs shown that in terms of speed and memory consumption, GBFS with EHC is dominantly better.
+Now if we look at Figure \ref{fig:ZenoTravelAgainstFF}, we took data from the IPC 2002 competition web-page \cite{ICAPS2002} regarding the FF planner that won the competition in 2002. We can see by the results that the new search algorithm GBFS with EHC + Fast Forward heuristic was able to better the previous winner in some of the harder problems in the Zenotravel domain. We allowed some of the result even though they are above our time limit for comparison but in problems 15, 17, 18 and 20 the new algorithm was better than the FF planner. 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.35]{ZenoTimeFF.png}
+    \caption{Zenotravel domain from IPC3, GBFS + EHC vs FF Planner }
+    \label{fig:ZenoTravelAgainstFF}
+\end{figure}
+
+All of the IPC 2002 results can be found in Appendix A, we also saw in the Freecell track that the hardest problem took the FF planner 1711.97 seconds to complete but the same problem with the new algorithm was able to complete the problem in 76.56 seconds
 \clearpage
 \subsection{Null Plans}
 Even though a preprocessing test was carried out for all domains, there were some that did not parse correctly and further analysing of these tests showed that some of the domains did not work correctly or there was issues with them which made it impossible for the planners to even attempt the domains. We can see automatically which domains or problems had potential problems as both of the planners were unable to solve any of the problems and the text files pertaining to the problem output were empty. To name one, the Barman domain was unable to be parsed correctly and that is why each of the algorithms have 0 solved problems.

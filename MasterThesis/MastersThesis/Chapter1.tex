@@ -4,19 +4,12 @@
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
-%----------------------------------------------------------------------------------------
-
-% Define some commands to keep the formatting separated from the content 
-
-%----------------------------------------------------------------------------------------
-
 \section{In the Beginning}
 What is planning? It can be defined as follows: "Explicit deliberation process that chooses and organises actions by anticipating their outcomes" \cite{PlanningBook}; in other words, from a predefined initial state we predict the set of actions used to achieve a predefined goal state. There are many ways we can do this for different scenarios within the domain of planning, but this thesis will concentrate on classical planning, which is a subset of the planning domain. 
 
 So, what is classical planning? "It refers generically to planning for restricted state-transition systems" \cite{PlanningBook}. This is the oldest type of planning and is also known as STRIPS programming (Stanford Research Institute Problem Solver). STRIPS was a planner developed at Stanford University in 1971 \cite{Strips} and its goal was to find a sequence of actions that could prove a goal formula true.
 
-We can class planners in the domain of 'State Transition Systems'. In the example at Figure \ref{fig:StateTransition} we have multiple blocks and a robot. The robot can move from one location to anther as well as pick up and put down the blocks from one location to another. Each picture is a set of states and the arrows represent each new state. We say each state transition is deterministic, meaning that it leads to just one other state. 
-
+We can class planners in the domain of 'State Transition Systems'. In the example at Figure \ref{fig:StateTransition} we have multiple blocks and a robot. The robot can pick up and put down the blocks from one location to another. Each picture is a set of states and the arrows represent each new state. We say each state transition is deterministic, meaning that it leads to just one other state. 
 \begin{figure}[!htb]
     \centering
     \includegraphics[scale=0.3]{StateTransitionEdit.png}
@@ -87,7 +80,7 @@ Now we can define a PDDL task by a 3-tuple $\Pi$ = ($S_0, G_n, O)$ where
 \begin{itemize}
 \item $S_0$ = Is a finite set of ground atoms called the initial state
 \item $G_n$ = Is a closed formula called the goal formula
-\item $O$ = Is a finite set of PDDL actions \cite{ConciseDomain} \ldots
+\item $O$ = Is a finite set of PDDL actions \cite{ConciseDomain}
 \end{itemize} 
 
 The initial state and goal state are the same as previously explained but, as the initial state begins at 0 and the goal state at \textit{n}, we are not sure where it is within the sequence. The axioms help us define predicates based on basic predicates. As seen by the example "given an \textit{ontop} predicate, we can define its transitive closure \textit{above} with the two axioms \textit{$above(x,y) \leftarrow ontop(x,y)$} and \textit{$above(x,z) \leftarrow \exists y(ontop(x,y)\wedge above(y,z))$}" \cite{ConciseDomain} With axioms like this, we ensure the evaluation is well defined and contains specific rules such as "ontable(A) is true when ontable(A) is actually false".   
@@ -132,7 +125,7 @@ int distance = Math.abs(x1 - x2) + Math.abs(y1 - y2);
 
 If we wanted to incorporate the function above with A*, we would create a small algorithm that would increase the value of \textit{g} by \textit{distance} and decrease \textit{h} by \textit{distance} as we move closer to the goal. So, regarding, the A* function \textit{f(n)}, the A* function should have the same value as the \textit{distance} function defined above. If the two match then we would say that this heuristic is "admissible". 
 
-Within the world of heuristics, two definitions exist: "admissible" and "non admissible". What is an admissible heuristic? We can say a heuristic \textit{h} is admissible if $h(s) \leq h^*(s)$ for all states \textit{s}. In other words, when estimating the distance from a starting node to a goal node, it does not overestimate. Then for a non admissible heuristic, there is a possibility that it will overestimate or underestimate the distance. Within the PDDL4J library there are two admissible heuristics, $h^m$ and $h^{MAX}$, but these will be discussed later. 
+Within the world of heuristics, two definitions exist: "admissible" and "non admissible". What is an admissible heuristic? We can say a heuristic \textit{h} is admissible if $h(s) \leq h^*(s)$ for all states \textit{s}. In other words, when estimating the distance from a starting node to a goal node, it does not overestimate. Then for a non admissible heuristic, there is a possibility that it will overestimate or underestimate the distance. Within the PDDL4J library there are two admissible heuristics, $H^+$ and $H^1$, and, $H^m$ but these will be discussed later. 
 
 \section{Satisfiability Problem}
 In the previous subsections, we looked at PDDL and how it works. This section and one in Chapter \ref{Chapter2} dedicated to a set of problems termed satisfiability (SAT) problems. These are a set of expressions which are boolean, which means there are only two possible outcomes, i.e. either true or false. It is expressed in propositional logic and uses the operators AND(conjunction, $\wedge$), OR(disjunction, $\vee$) and NOT(negation, $\neg$). We say a problem is satisfiable if all the variables can be set to true or false. There is a particular structure that needs to be kept when working with satisfiability problems – we will look at the notation briefly. 
