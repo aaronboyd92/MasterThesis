@@ -1,0 +1,86 @@
+Checking plan: pddl1.txt
+Plan to validate:
+
+Plan size: 9
+1:
+(wait_cb1)
+ 
+2:
+(wait_cb1-condeff0-yes)
+ 
+3:
+(wait_cb1-endof-condeffs)
+ 
+4:
+(open-sd2)
+ 
+5:
+(open-sd1)
+ 
+6:
+(close_cb1)
+ 
+7:
+(wait_cb1)
+ 
+8:
+(wait_cb1-condeff0-no-0)
+ 
+9:
+(wait_cb1-endof-condeffs)
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (do-normal)
+Deleting (not-updated-cb1)
+Adding (do-wait_cb1-condeffs)
+Adding (updated-cb1)
+
+Checking next happening (time 2)
+Deleting (closed-cb1)
+Adding (done-0)
+Adding (not-closed-cb1)
+
+Checking next happening (time 3)
+Deleting (do-wait_cb1-condeffs)
+Deleting (done-0)
+Adding (do-normal)
+
+Checking next happening (time 4)
+Deleting (closed-sd2)
+Adding (not-closed-sd2)
+
+Checking next happening (time 5)
+Deleting (closed-sd1)
+Adding (not-closed-sd1)
+
+Checking next happening (time 6)
+Deleting (not-closed-cb1)
+Deleting (updated-cb1)
+Adding (closed-cb1)
+Adding (not-updated-cb1)
+
+Checking next happening (time 7)
+Deleting (do-normal)
+Deleting (not-updated-cb1)
+Adding (do-wait_cb1-condeffs)
+Adding (updated-cb1)
+
+Checking next happening (time 8)
+Adding (done-0)
+
+Checking next happening (time 9)
+Deleting (do-wait_cb1-condeffs)
+Deleting (done-0)
+Adding (do-normal)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 9 
+
+Successful plans:
+Value: 9
+ pddl1.txt 9 
+

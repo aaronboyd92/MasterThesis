@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<title>SAT4J</title>
+<meta content="Daniel Le Berre" name="author">
+<meta content="a SATisfibility library for Java" name="description">
+</head>
+<body>
+<center><img src="./sat4j.png" alt="SAT4J" width="340" height="179">
+<p>
+<h1>A satisfiability library for Java</h1>
+</center>
+<P><br>
+The aim of the SAT4J library is to provide an <span
+	style="color: rgb(255, 0, 0);">efficient</span> library of SAT solvers
+in Java. Compared to the <a href="http://www.opensat.org/OpenSAT/">OpenSAT
+project</a>, the SAT4J library targets first users of SAT "black boxes",
+willing to embed&nbsp; SAT technologies into their application without
+worrying about the details. Since we use the library for our own
+research, it is also possible for SAT researchers to use it as a basis
+for their work.<br>
+<br>
+SAT4J includes our implementation in Java of Niklas Een and Niklas
+Sorenson's MiniSAT specification. <br>
+<br>
+<a
+	href="http://www.math.chalmers.se/%7Eeen/Satzoo/An_Extensible_SAT-solver.ps.gz">An
+extensible SAT solver</a>. Niklas E&eacute;n and Niklas S&ouml;rensson.
+Proceedings of the <span style="font-style: italic;">Sixth International
+Conference on Theory and Applications of Satisfiability Testing</span>,
+LNCS 2919, pp 502-518, 2003<br>
+<br>
+The original C++ implementation is available <a
+	href="http://www.math.chalmers.se/%7Eeen/Satzoo/MiniSat.src.1.10.zip">here</a>.<br>
+<br>
+Whereas the overall algorithmic of the solver is respected, the design
+has been adapted to Java practices. Furthermore, the initial design has
+been extended to allow testing several heuristics and learning schemes.<br>
+<br>
+Some data structures included in SAT4J were proposed by Lawrence Ryan: <a
+	href="http://www.cs.sfu.ca/~mitchell/papers/ryan-thesis.ps"> Efficient
+Algorithms for Clause Learning SAT Solvers, Lawrence Ryan, Master
+Thesis, SFU, Feb 2004. </a>
+<p>The SAT solver MiniLearning is based on the SAT4J library: it is a
+minisat solver which learns only clauses of size smaller than 10% of the
+number of variables, branches by default on a negative literal or on the
+literals appearing on latest learnt clause containing that variable if
+applicable. MiniLearning has been submitted to the <a
+	href="http://www.lri.fr/~simon/contest/results/">SAT2004 competition</a>.
+The solver entered the second stage with 10 other solvers in the
+industrial category.<br>
+<br>
+To give an idea of the current efficiency of the library, here are some
+experimental results obtained on Miroslav Velev SSS-SAT-10.0 and
+VLIW-SAT-1.0 benchmarks (each set contains 100 benchmarks) and compared
+to the latest version of zChaff, MiniSat and Siege (The solvers are not
+exploring the same search space so there is no way to compare C++
+against Java here). The computer used is a PIV 3.0 Ghz HT with MB of 2nd
+level cache and 512MB of RAM. MiniLearning was using the latest JVM
+(1.5.0) with hotspot server and the memory options -Xms300M -Xms300M.
+The numbers provided are the output of the time command for solving 100
+benchmarks. <br>
+<pre>
+SSS-SAT-1.0
+
+MiniLearning JAVA5.1.0.19
+ 
+281.89user 6.31system 3:45.52elapsed 127%CPU (0avgtext+0avgdata
+0maxresident)k0inputs+0outputs (109major+965121minor)pagefaults 0swaps
+ 
+Zchaff 2003.7.1
+ 
+83.55user 1.93system 1:26.79elapsed 98%CPU (0avgtext+0avgdata
+0maxresident)k0inputs+0outputs (2major+163370minor)pagefaults 0swaps
+
+Siege v4
+
+17.34user 0.70system 0:21.34elapsed 84%CPU (0avgtext+0avgdata 
+0maxresident)k0inputs+0outputs (1311major+114165minor)pagefaults 0swaps
+
+zChaff 2004.11.15
+77.21user 1.40system 1:19.46elapsed 98%CPU (0avgtext+0avgdata 
+0maxresident)k0inputs+0outputs (8major+173339minor)pagefaults 0swaps
+
+VLIW-SAT
+ 
+MiniLearning JAVA5.1.0.19
+ 
+1515.54user 12.41system 24:12.28elapsed 105%CPU (0avgtext+0avgdata
+0maxresident)k0inputs+0outputs (496major+1985111minor)pagefaults 0swaps
+
+Zchaff 2003.7.1
+
+2395.87user 68.00system 41:12.81elapsed 99%CPU (0avgtext+0avgdata
+0maxresident)k0inputs+0outputs (8major+1106416minor)pagefaults 0swaps
+
+Siege v4
+
+221.28user 3.14system 3:56.76elapsed 94%CPU (0avgtext+0avgdata 
+0maxresident)k0inputs+0outputs (8949major+506940minor)pagefaults 0swaps
+
+
+zChaff 2004.11.15
+
+1174.31user 11.31system 19:52.84elapsed 99%CPU (0avgtext+0avgdata 
+0maxresident)k0inputs+0outputs (0major+894494minor)pagefaults 0swaps
+
+</pre>
+<p>Please check the <a
+	href="http://le.berred.free.fr/sat4j/doc/org/sat4j/minisat/SolverFactory.html">list
+of pre-constructed/available solvers</a> to have an idea of the current
+features available in the library.
+<p><br>
+The SAT4J library is available:<br>
+<ul>
+	<li>as a <a href="http://le.berred.free.fr/sat4j/sat4j.jar">self
+	executable jar file</a>:&nbsp; just type <pre>java -jar sat4j.jar</pre>
+	to obtain the list of available solvers. <pre>java -jar sat4j.jar MiniLearning <i>cnffile</i> </pre>use
+	MiniLearning SAT solver.</li>
+	<li>in <a href="http://le.berred.free.fr/sat4j/sat4j-src.jar">source</a>
+	under the <a href="http://www.gnu.org/licenses/lgpl.html">GNU LGPL
+	licence</a>.</li>
+</ul>
+<br>
+We are currently working on an update of SAT4J for Java 1.5. All the
+reports available from this page are related to that code. You can get
+the latest nightly build of SAT4J for Java 1.5:
+<br>
+<ul>
+	<li>as a <a href="http://le.berred.free.fr/sat4j/sat4j-1.5.jar">self
+	executable jar file</a></li>
+	<li>in <a href="http://le.berred.free.fr/sat4j/sat4j-1.5-src.jar">source</a>
+	under the <a href="http://www.gnu.org/licenses/lgpl.html">GNU LGPL
+	licence</a>.</li>
+</ul>
+<br>
+It is also possible to browse the
+<a href="http://le.berred.free.fr/sat4j/doc/">API documentation</a>
+(some comments are still in French).
+<br>
+<br>
+Just to give you an example of Java code using the SAT4J library:
+<pre>
+public class Example {
+
+	public static void main(String[] args) {
+		ISolver solver = SolverFactory.newMiniLearning();
+		solver.setTimeout(3600); // 1 hour timeout
+		Reader reader = new DimacsReader(solver);
+		// CNF filename is given on the command line 
+		try {
+			IProblem problem = reader.parseInstance(args[0]);
+			if (problem.isSatisfiable()) {
+				System.out.println("Satisfiable !");
+				System.out.println(reader.decode(problem.model()));
+			} else {
+				System.out.println("Unsatisfiable !");
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+		} catch (ParseFormatException e) {
+			// TODO Auto-generated catch block
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+		} catch (ContradictionException e) {
+			System.out.println("Unsatisfiable (trivial)!");
+		} catch (TimeoutException e) {
+			System.out.println("Timeout, sorry!");		
+		}
+	}
+}
+</pre>
+A distributed version of the solver based on the
+<a href="http://www-sop.inria.fr/oasis/ProActive/">ProActive framework</a>
+is available on demand (we need to polish it a bit and write some
+documentation before releasing it).
+<p>For those interesting in software engineering, some reports are also
+available:<br>
+<ul>
+	<li><a href="http://le.berred.free.fr/sat4j/junit/">Unit test report</a></li>
+	<li><a href="http://le.berred.free.fr/sat4j/clover/">Code coverage
+	report</a></li>
+	<li><a href="http://le.berred.free.fr/sat4j/jdepend/">Design analysis
+	(Jdepend) report</a></li>
+	<li><a href="http://le.berred.free.fr/sat4j/classycle.xml">Design
+	analysis (Classycle) report</a></li>
+	<li><a href="http://le.berred.free.fr/sat4j/checkstyle/">Code
+	convention analysis report</a></li>
+	<li><a
+		href="http://le.berred.free.fr/sat4j/checkstyle/simian_report.html">Similarity
+	analysis (Simian) report</a></li>
+	<li><a href="http://le.berred.free.fr/sat4j/findbugs.html">Bug reports
+	(FindBugs) report</a></li>
+</ul>
+<br>
+
+
+<p>For questions, feature request, bugs, comments regarding SAT4J,
+please send an email to leberre AT cril.univ-artois.fr.<br>
+<br>
+That library is currently used as a basis for our research on the
+resolution of pseudo boolean formula.<br>
+<br>
+<h3>Roadmap</h3>
+<table>
+	<tr>
+		<th>Date</th>
+		<th>Release</th>
+		<th>Content</th>
+	</tr>
+	<tr>
+		<td>Late February 2005</td>
+		<td>1.1 (not released)</td>
+		<td>Java 1.5 aware. Documentation improved. Tuning done on CNF part
+		for the SAT2005 competition.</td>
+	<tr>
+	<tr>
+		<td>Late March 2005</td>
+		<td>1.2 (not released)</td>
+		<td>Add certificate of unsatisfiability. Fixes in the PB part.
+		Submission to the competition special tracks on certified UNSAT and
+		PB.</td>
+	<tr>
+	<tr>
+		<td>April/May 2005</td>
+		<td>1.3 (current effort)</td>
+		<td>Adapt SAT4J for easy inclusion into <a
+			href="http://alloy.mit.edu/beta/">Alloy</a><br/>
+			Include local search solvers from <a href="http://www.satlib.org/ubcsat/">UBCSAT</a>
+		</td>
+	<tr>
+	<tr>
+		<td>June and later 2005</td>
+		<td>1.4</td>
+		<td>Add minimal core computation feature. Improve solvers at the light of the <a href="http://www.satcompetition.org/">SAT 2005 competition</a></td>
+	<tr>
+</table>
+<h3>Users</h3>
+<ul>
+	<li><a href="http://www.lirmm.fr/~coletta/">R&eacute;mi Coletta</a>
+	(Montpellier)
+	<li><a href="http://www.dit.unitn.it/~pavel/">Pavel Shvaiko</a>
+	(Trento) <a
+		href="http://dit.unitn.it/research/publications/techRep?id=717">[Technical
+	Report]</a>
+</ul>
+<h3>Developpers @ CRIL<br>
+</h3>
+<br>
+M&eacute;d&eacute;ric Baron
+<br>
+Joffrey Bourgeois
+<br>
+Yann Irrilo
+<br>
+Fr&eacute;d&eacute;ric Fontaine
+<br>
+<a href="mailto:laihemf@tiscali.fr">Fr&eacute;d&eacute;ric Laihem</a>
+<br>
+<a href="http://www.cril.univ-artois.fr/%7Eleberre/">Daniel Le Berre</a>
+<br>
+<a href="http://www.cril.univ-artois.fr/%7Eparrain">Anne Parrain</a>
+<br>
+<a href="http://www.cril.univ-artois.fr/%7Eroussel">Olivier Roussel</a>
+<br>
+<a href="http://www.cril.univ-artois.fr/%7Esais">Lakdhar Sais</a>
+(cardinality/pseudo boolean parts)
+<br>
+<br>
+<br>
+<hr style="width: 100%; height: 2px;">
+Last update: $Date: 2005/11/30 21:15:41 $
+<br>
+</body>
+</html>

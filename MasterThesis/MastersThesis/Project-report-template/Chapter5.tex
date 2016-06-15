@@ -1,0 +1,26 @@
+\chapter{Conclusion} % Main chapter title
+
+\label{Chapter5}
+
+\section{Conclusion of Work}
+In Chapter \ref{Chapter1} we detailed the outline that would be the general theme for the thesis, Classical Planning approaches. We provided the main aspects of classical planning and what were the topics we would be covering in the next sections. Explaining the aspects of the PDDL4J library, PDDL, Satisfiability problems and the goal for this thesis. 
+
+We would then go on in Chapter \ref{Chapter2} to discuss what areas we will be focusing on and how we would try to achieve the goals of this thesis. We also discussed many approaches in terms of state-space planning as we felt using one of these algorithms would prove our initial hypotheses set out at the end of Chapter \ref{Chapter2}. The overall goal of Chapter \ref{Chapter2} was to grasp an understand into the world of planning, and through research, be able to come to a conclusion with what algorithms would prove our hypotheses. 
+
+Chapter \ref{Chapter3} described how we would test the various assumptions, and based on \cite{Evaluation} how we would test the new algorithms. We also described the implementation phase of the new search algorithm and heuristic function. These were based on \cite{FFPlanner} and \cite{PlanningBook} plus \cite{HmHeuristic}. 
+
+The last Chapter, \ref{Chapter4}, we compiled all the results from the multiple tests and discussed the results, as well as tested our hypotheses set out in Chapter \ref{Chapter2}.
+
+In this thesis we were able to prove that A* was not the more optimal search algorithm for the PDDL4J planner, as the new search algorithm, Greedy Best First Search with Enforced Hill Climbing based on \cite{FFPlanner} was better overall. Even though there were some domains were A* was better, the more solved problems in a faster, less memory consumed manor went to GBFS with EHC. We can see by the results the difference between these two algorithms and in the next section below we discuss future additions to the algorithm and the PDDL4J planner. 
+
+The $H^m$ heuristic on the other hand did not goes as well as expected, from the beginning we knew that it would be computationally expensive to compute but did not assume that it would not be able to solve a majority of the problems. Even though we were able to see some anomalies between actions, in the majority of harder problems in Blocksworld for example, it was unable to solve past problem 12. When paired together with the GBFS with EHC algorithm it provided the same base of results in terms of solved problems but in some of the domains the speed was worse for GBFS with EHC.  
+
+In the following sections, we converted PDDL problems into SAT problems and gave the problems to the SAT4J library. This provided fast results in solving some of the Blocksworld problems compared to PDDL4J (A* and GBFS with EHC). Further testing would have been a plus in this area so more problems could be analysed but this has went into the future work section below as an extension to the PDDL4J planner. 
+\section{Limitations}
+One of the biggest limitations for me was the fact that I did not create the PDDL4J planner, which meant that I had to spend a lot of time trying to figure out such things as how it all worked, how classes linked together, what methods were available to me, etc.  This took up a large part of my time when it came to creating the two algorithms.  Also, even though Java is a very popular coding language and I have worked with it throughout my University career, some of the classes use “Bitset”, which is something I had never used before, so trying to familiarise myself with that as well as conducting research on a topic about which I know only a little was certainly challenging.
+\section{Future Work} 
+For future work, I feel there is a great deal that could be incorporated in the PDDL4J library that has not as yet been implemented, one of those things being the incorporation of a SAT solver, which would enable the library to solve satisfiability problems as PDDL.
+
+Another addition could be a potential learning algorithm, one that start to build knowledge of the4 actions with a domain, meaning that the initial problems would be run as normal but the more the planner runs problems within a certain domain like Blocksworld, the more it would understand how to use actions in an optimal manner.
+
+An algorithm that could take into account two heuristics would be good for classical planning approaches as combining a not admissible heuristic and an admissible heuristic could complement each other in certain areas. So for example, if the not admissible heuristic was stuck in a section, the admissible heuristic could take over to push past or go back from a dead end and letting the not admissible heuristic take over again. Potentially, this could provide a fast classical planner that could provide semi-optimal plans. 

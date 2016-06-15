@@ -1,0 +1,74 @@
+  p01       96       72   p02       96       72     0.29     0.05          0       -        -        -        -     -
+    0.27     0.05          0       -        -        -        -     -
+  p04      496       98     0.48     0.19          0       -        -        -        -     -
+  p03      496       98     0.58     0.19          0       -        -        -        -     -
+  p06      552      108     0.61     0.21          0       -        -        -        -     -
+  p05      552      108     0.65     0.21          0       -        -        -        -     -
+  p11      940      157     0.67     0.35          0       -        -        -        -     -
+  p12     1460      169   p07     2016      138     0.83     0.53          0       -        -        -        -     -
+    0.91     0.72          0       -        -        -        -     -
+  p08     2016      138     1.17     0.72          0       -        -        -        -     -
+  p09     2144      146   p10     2144      146     1.25     0.77          0       -        -        -        -     -
+    1.16     0.77          0       -        -        -        -     -
+  p14     1704      213     0.79     0.62          0       -        -        -        -     -
+  p15     1084      197     0.92     0.41          0       -        -        -        -     -
+  p17     2215      301     0.90     0.81          0       -        -        -        -     -
+  p13     2760      231     1.05     0.99          0       -        -        -        -     -
+  p16     2524      237     1.21     0.91          0       -        -        -        -     -
+  p18     4962      331     1.42     1.76          0       -        -        -        -     -
+  p21     2572      274     0.81     0.93          0       -        -        -        -     -
+  p22     2572      274     0.86     0.93          0       -        -        -        -     -
+  p19     5902      377     1.24     2.10          0       -        -        -        -     -
+  p23     5400      345     1.55     1.92          0       -        -        -        -     -
+  p20    10702      425     1.77     3.77          0       -        -        -        -     -
+  p24     5400      345     1.07     1.92          0       -        -        -        -     -
+  p25     8470      409     1.27     2.99          0       -        -        -        -     -
+  p26     9532      417     1.35     3.36          0       -        -        -        -     -
+  p27    11944      490     1.76     4.21          0       -        -        -        -     -
+  p28    11944      490     1.98     4.21          0       -        -        -        -     -
+  p31     1783      303     0.71     0.66          0       -        -        -        -     -
+  p29    18348      590     2.50     6.44          0       -        -        -        -     -
+  p32     4376      356     0.99     1.56          0       -        -        -        -     -
+  p30    15612      541     2.66     5.48          0       -        -        -        -     -
+  p33     6156      401     1.59     2.19          0       -        -        -        -     -
+  p34     9491      443     1.37     3.35          0       -        -        -        -     -
+  p37    17577      589     2.32     6.17          0       -        -        -        -     -
+  p35    26175      588     2.83     9.16          0       -        -        -        -     -
+  p36    26175      588     3.09     9.16          0       -        -        -        -     -
+  p38    17577      589     2.53     6.17          0       -        -        -        -     -
+  p39    25014      705     3.02     8.76          0       -        -        -        -     -
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 5626134528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid5264.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 5626134528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid5267.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 5626134528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid5270.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 5626134528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid5273.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 5626134528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid5276.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 5626134528 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid5279.log
+  p40    25014      705     3.23     8.76          0       -        -        -        -     -
+  p41    11748      714     1.78     4.16          0       -        -        -        -     -
+  p42    32808      790     2.77    11.48          0       -        -        -        -     -
+  p43    66656      919     4.44    23.24          0       -        -        -        -     -
+  p44    66656      919     4.43    23.24          0       -        -        -        -     -

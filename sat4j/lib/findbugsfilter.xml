@@ -1,0 +1,5 @@
+<FindBugsFilter>
+     <Match classregex="org.apache.*" />
+     <Match classregex="org.mozilla.*" />
+     <Match classregex="org.sat4j.csp.xml.*" />
+</FindBugsFilter>

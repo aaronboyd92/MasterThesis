@@ -1,0 +1,54 @@
+(unstack e g
+(put-down e
+(unstack g b
+(put-down g
+(unstack b a
+(stack b e
+(unstack a f
+(stack a g
+(unstack f c
+(put-down f
+(unstack c d
+(stack c f
+(unstack b e
+(stack b c
+(pick-up d
+(stack d e
+(unstack b c
+(put-down b
+(unstack d e
+(stack d b
+(unstack a g
+(stack a e
+(pick-up g
+(stack g d
+(unstack a e
+(stack a g
+(unstack c f
+(stack c e
+(pick-up f
+(stack f a
+(unstack c e
+(put-down c
+(unstack f a
+(stack f e
+(pick-up c
+(stack c f
+(unstack a g
+(put-down a
+(unstack g d
+(put-down g
+(pick-up a
+(stack a g
+(unstack d b
+(put-down d
+(pick-up b
+(stack b c
+(pick-up d
+(stack d b
+(unstack a g
+(put-down a
+(pick-up g
+(stack g d
+(pick-up a
+(stack a g

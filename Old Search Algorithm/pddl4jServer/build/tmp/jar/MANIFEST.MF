@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: Gradle Quickstart
+Implementation-Version: 3.1.0
+Gradle-Version: Gradle 2.10
+Built-By: Damien Pellier
+Premain-Class: fr.uga.pddl4j.util.MemoryAgent
+Main-Class: fr.uga.pddl4j.planners.hsp.HSP
+

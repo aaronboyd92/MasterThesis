@@ -1,0 +1,12 @@
+  p01     1140      204     0.14     0.53     2.00     2.67     0.57     0.93     1.50    20
+  p05     1926      327     0.13     0.57    10.33    11.03     0.91     6.44     7.36    17
+  p02     2960      410     0.13     0.86    29.95    30.94     1.57     5.49     7.06    23
+  p07     7062      698     0.14     0.70   370.27   371.11     4.10    11.46    15.56    24
+  p03    13496     1184     0.14     2.46   527.85   530.45     7.76    15.85    23.61    40
+  p11     3888      512     0.11     0.32    50.28    50.71     2.02    10.31    12.33    21
+  p17    17940     1490     0.11     0.96   233.47   234.53     9.45     3.43    12.88    30
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 3511681024 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid15274.log

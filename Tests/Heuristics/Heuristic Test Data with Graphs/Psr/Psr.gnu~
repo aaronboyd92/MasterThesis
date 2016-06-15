@@ -1,0 +1,14 @@
+set terminal pngcairo size 1200, 1000
+set decimalsign "."
+set output "PsrPlanSize.png"
+set title "Comparison of Heuristics (Sum, Max, FF, Hm) with Psr from IPC4" font "Helvetica,14"
+set xlabel "PDDL Problem" font "Helvetica,10"
+set ylabel "Total Time in Seconds" font "Helvetica,10"
+set autoscale xy
+
+set grid 
+
+plot "FFpsr.dat" using 1:11:xtic(1) with linespoints title "FF", \
+    "CritPsr.dat" using 1:11:xtic(1) with linespoints title "Hm" , \
+   "SumPsr.dat" using 1:11:xtic(1) with linespoints title "Sum", \
+"MaxPsr.dat" using 1:11:xtic(1) with linespoints title "Max"

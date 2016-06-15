@@ -1,0 +1,2047 @@
+% Appendix A
+
+\chapter{Appendix Title Here} % Main appendix title
+
+\label{AppendixB} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\section{PSR}
+Checking plan: pddl01.txt
+Plan to validate:
+Plan size: 9
+1:
+(wait_cb1) 
+2:
+(wait_cb1-condeff0-yes) 
+3:
+(wait_cb1-endof-condeffs) 
+4:
+(open-sd2) 
+5:
+(open-sd1) 
+6:
+(close_cb1) 
+7:
+(wait_cb1) 
+8:
+(wait_cb1-condeff0-no-0) 
+9:
+(wait_cb1-endof-condeffs) 
+
+Plan Validation details
+-----------------------
+Checking next happening (time 1)
+Deleting (do-normal)
+Deleting (not-updated-cb1)
+Adding (do-wait_cb1-condeffs)
+Adding (updated-cb1)
+
+Checking next happening (time 2)
+Deleting (closed-cb1)
+Adding (done-0)
+Adding (not-closed-cb1)
+
+Checking next happening (time 3)
+Deleting (do-wait_cb1-condeffs)
+Deleting (done-0)
+Adding (do-normal)
+
+Checking next happening (time 4)
+Deleting (closed-sd2)
+Adding (not-closed-sd2)
+
+Checking next happening (time 5)
+Deleting (closed-sd1)
+Adding (not-closed-sd1)
+
+Checking next happening (time 6)
+Deleting (not-closed-cb1)
+Deleting (updated-cb1)
+Adding (closed-cb1)
+Adding (not-updated-cb1)
+
+Checking next happening (time 7)
+Deleting (do-normal)
+Deleting (not-updated-cb1)
+Adding (do-wait_cb1-condeffs)
+Adding (updated-cb1)
+
+Checking next happening (time 8)
+Adding (done-0)
+
+Checking next happening (time 9)
+Deleting (do-wait_cb1-condeffs)
+Deleting (done-0)
+Adding (do-normal)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 9 
+
+Successful plans:
+Value: 9
+ pddl01.txt 9 
+\section{Sokoban}
+Type-checking move
+...action passes type checking.
+Type-checking push-to-nongoal
+...action passes type checking.
+Type-checking push-to-goal
+...action passes type checking.
+Checking plan: pddl01.txt
+Plan to validate:
+
+Plan size: 41
+1:
+(move player-01 pos-6-4 pos-6-3 dir-up)
+2:
+(move player-01 pos-6-3 pos-5-3 dir-left)
+3:
+(move player-01 pos-5-3 pos-4-3 dir-left)
+4:
+(push-to-nongoal player-01 stone-02 pos-4-3 pos-4-4 pos-4-5 dir-down)
+5:
+(move player-01 pos-4-4 pos-4-3 dir-up)
+6:
+(move player-01 pos-4-3 pos-5-3 dir-right)
+7:
+(move player-01 pos-5-3 pos-6-3 dir-right)
+8:
+(move player-01 pos-6-3 pos-6-4 dir-down)
+9:
+(push-to-goal player-01 stone-03 pos-6-4 pos-5-4 pos-4-4 dir-left)
+10:
+(move player-01 pos-5-4 pos-5-3 dir-up)
+11:
+(move player-01 pos-5-3 pos-4-3 dir-left)
+12:
+(move player-01 pos-4-3 pos-3-3 dir-left)
+13:
+(move player-01 pos-3-3 pos-2-3 dir-left)
+14:
+(move player-01 pos-2-3 pos-2-4 dir-down)
+15:
+(move player-01 pos-2-4 pos-2-5 dir-down)
+16:
+(move player-01 pos-2-5 pos-3-5 dir-right)
+17:
+(push-to-nongoal player-01 stone-01 pos-3-5 pos-3-4 pos-3-3 dir-up)
+18:
+(push-to-nongoal player-01 stone-03 pos-3-4 pos-4-4 pos-5-4 dir-right)
+19:
+(move player-01 pos-4-4 pos-4-3 dir-up)
+20:
+(move player-01 pos-4-3 pos-5-3 dir-right)
+21:
+(move player-01 pos-5-3 pos-6-3 dir-right)
+22:
+(move player-01 pos-6-3 pos-6-4 dir-down)
+23:
+(push-to-goal player-01 stone-03 pos-6-4 pos-5-4 pos-4-4 dir-left)
+24:
+(push-to-goal player-01 stone-03 pos-5-4 pos-4-4 pos-3-4 dir-left)
+25:
+(push-to-goal player-01 stone-03 pos-4-4 pos-3-4 pos-2-4 dir-left)
+26:
+(move player-01 pos-3-4 pos-3-5 dir-down)
+27:
+(move player-01 pos-3-5 pos-3-6 dir-down)
+28:
+(move player-01 pos-3-6 pos-4-6 dir-right)
+29:
+(push-to-goal player-01 stone-02 pos-4-6 pos-4-5 pos-4-4 dir-up)
+30:
+(move player-01 pos-4-5 pos-3-5 dir-left)
+31:
+(move player-01 pos-3-5 pos-3-4 dir-up)
+32:
+(push-to-nongoal player-01 stone-02 pos-3-4 pos-4-4 pos-5-4 dir-right)
+33:
+(move player-01 pos-4-4 pos-4-3 dir-up)
+34:
+(move player-01 pos-4-3 pos-4-2 dir-up)
+35:
+(move player-01 pos-4-2 pos-3-2 dir-left)
+36:
+(push-to-goal player-01 stone-01 pos-3-2 pos-3-3 pos-3-4 dir-down)
+37:
+(move player-01 pos-3-3 pos-4-3 dir-right)
+38:
+(move player-01 pos-4-3 pos-5-3 dir-right)
+39:
+(move player-01 pos-5-3 pos-6-3 dir-right)
+40:
+(move player-01 pos-6-3 pos-6-4 dir-down)
+41:
+(push-to-goal player-01 stone-02 pos-6-4 pos-5-4 pos-4-4 dir-left)
+ 
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (at player-01 pos-6-4)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-6-4)
+
+Checking next happening (time 2)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-6-3)
+
+Checking next happening (time 3)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 4)
+Deleting (at player-01 pos-4-3)
+Deleting (at stone-02 pos-4-4)
+Deleting (clear pos-4-5)
+Deleting (at-goal stone-02)
+Adding (at player-01 pos-4-4)
+Adding (at stone-02 pos-4-5)
+Adding (clear pos-4-3)
+
+Checking next happening (time 5)
+Deleting (at player-01 pos-4-4)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-4-4)
+
+Checking next happening (time 6)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 7)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 8)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-6-4)
+Adding (at player-01 pos-6-4)
+Adding (clear pos-6-3)
+
+Checking next happening (time 9)
+Deleting (at player-01 pos-6-4)
+Deleting (at stone-03 pos-5-4)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-5-4)
+Adding (at stone-03 pos-4-4)
+Adding (clear pos-6-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 10)
+Deleting (at player-01 pos-5-4)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-5-4)
+
+Checking next happening (time 11)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 12)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-3-3)
+Adding (at player-01 pos-3-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 13)
+Deleting (at player-01 pos-3-3)
+Deleting (clear pos-2-3)
+Adding (at player-01 pos-2-3)
+Adding (clear pos-3-3)
+
+Checking next happening (time 14)
+Deleting (at player-01 pos-2-3)
+Deleting (clear pos-2-4)
+Adding (at player-01 pos-2-4)
+Adding (clear pos-2-3)
+
+Checking next happening (time 15)
+Deleting (at player-01 pos-2-4)
+Deleting (clear pos-2-5)
+Adding (at player-01 pos-2-5)
+Adding (clear pos-2-4)
+
+Checking next happening (time 16)
+Deleting (at player-01 pos-2-5)
+Deleting (clear pos-3-5)
+Adding (at player-01 pos-3-5)
+Adding (clear pos-2-5)
+
+Checking next happening (time 17)
+Deleting (at player-01 pos-3-5)
+Deleting (at stone-01 pos-3-4)
+Deleting (clear pos-3-3)
+Deleting (at-goal stone-01)
+Adding (at player-01 pos-3-4)
+Adding (at stone-01 pos-3-3)
+Adding (clear pos-3-5)
+
+Checking next happening (time 18)
+Deleting (at player-01 pos-3-4)
+Deleting (at stone-03 pos-4-4)
+Deleting (clear pos-5-4)
+Deleting (at-goal stone-03)
+Adding (at player-01 pos-4-4)
+Adding (at stone-03 pos-5-4)
+Adding (clear pos-3-4)
+
+Checking next happening (time 19)
+Deleting (at player-01 pos-4-4)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-4-4)
+
+Checking next happening (time 20)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 21)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 22)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-6-4)
+Adding (at player-01 pos-6-4)
+Adding (clear pos-6-3)
+
+Checking next happening (time 23)
+Deleting (at player-01 pos-6-4)
+Deleting (at stone-03 pos-5-4)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-5-4)
+Adding (at stone-03 pos-4-4)
+Adding (clear pos-6-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 24)
+Deleting (at player-01 pos-5-4)
+Deleting (at stone-03 pos-4-4)
+Deleting (clear pos-3-4)
+Adding (at player-01 pos-4-4)
+Adding (at stone-03 pos-3-4)
+Adding (clear pos-5-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 25)
+Deleting (at player-01 pos-4-4)
+Deleting (at stone-03 pos-3-4)
+Deleting (clear pos-2-4)
+Adding (at player-01 pos-3-4)
+Adding (at stone-03 pos-2-4)
+Adding (clear pos-4-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 26)
+Deleting (at player-01 pos-3-4)
+Deleting (clear pos-3-5)
+Adding (at player-01 pos-3-5)
+Adding (clear pos-3-4)
+
+Checking next happening (time 27)
+Deleting (at player-01 pos-3-5)
+Deleting (clear pos-3-6)
+Adding (at player-01 pos-3-6)
+Adding (clear pos-3-5)
+
+Checking next happening (time 28)
+Deleting (at player-01 pos-3-6)
+Deleting (clear pos-4-6)
+Adding (at player-01 pos-4-6)
+Adding (clear pos-3-6)
+
+Checking next happening (time 29)
+Deleting (at player-01 pos-4-6)
+Deleting (at stone-02 pos-4-5)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-4-5)
+Adding (at stone-02 pos-4-4)
+Adding (clear pos-4-6)
+Adding (at-goal stone-02)
+
+Checking next happening (time 30)
+Deleting (at player-01 pos-4-5)
+Deleting (clear pos-3-5)
+Adding (at player-01 pos-3-5)
+Adding (clear pos-4-5)
+
+Checking next happening (time 31)
+Deleting (at player-01 pos-3-5)
+Deleting (clear pos-3-4)
+Adding (at player-01 pos-3-4)
+Adding (clear pos-3-5)
+
+Checking next happening (time 32)
+Deleting (at player-01 pos-3-4)
+Deleting (at stone-02 pos-4-4)
+Deleting (clear pos-5-4)
+Deleting (at-goal stone-02)
+Adding (at player-01 pos-4-4)
+Adding (at stone-02 pos-5-4)
+Adding (clear pos-3-4)
+
+Checking next happening (time 33)
+Deleting (at player-01 pos-4-4)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-4-4)
+
+Checking next happening (time 34)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-4-2)
+Adding (at player-01 pos-4-2)
+Adding (clear pos-4-3)
+
+Checking next happening (time 35)
+Deleting (at player-01 pos-4-2)
+Deleting (clear pos-3-2)
+Adding (at player-01 pos-3-2)
+Adding (clear pos-4-2)
+
+Checking next happening (time 36)
+Deleting (at player-01 pos-3-2)
+Deleting (at stone-01 pos-3-3)
+Deleting (clear pos-3-4)
+Adding (at player-01 pos-3-3)
+Adding (at stone-01 pos-3-4)
+Adding (clear pos-3-2)
+Adding (at-goal stone-01)
+
+Checking next happening (time 37)
+Deleting (at player-01 pos-3-3)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-3-3)
+
+Checking next happening (time 38)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 39)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 40)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-6-4)
+Adding (at player-01 pos-6-4)
+Adding (clear pos-6-3)
+
+Checking next happening (time 41)
+Deleting (at player-01 pos-6-4)
+Deleting (at stone-02 pos-5-4)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-5-4)
+Adding (at stone-02 pos-4-4)
+Adding (clear pos-6-4)
+Adding (at-goal stone-02)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 41 
+
+Successful plans:
+Value: 41
+ pddl01.txt 41 
+\section{Blocksworld}
+Type-checking pick-up
+...action passes type checking.
+Type-checking put-down
+...action passes type checking.
+Type-checking stack
+...action passes type checking.
+Type-checking unstack
+...action passes type checking.
+Checking plan: pddl20.txt
+Plan to validate:
+
+Plan size: 98
+1:
+(unstack f d)
+2:
+(put-down f)
+3:
+(unstack d h)
+4:
+(stack d f)
+5:
+(unstack c g)
+6:
+(stack c h)
+7:
+(unstack g e)
+8:
+(put-down g)
+9:
+(unstack e i)
+10:
+(put-down e)
+11:
+(unstack i j)
+12:
+(stack i d)
+13:
+(pick-up g)
+14:
+(stack g j)
+15:
+(unstack i d)
+16:
+(put-down i)
+17:
+(unstack c h) 
+18:
+(stack c d) 
+19:
+(pick-up i) 
+20:
+(stack i c) 
+21:
+(pick-up e) 
+22:
+(stack e h) 
+23:
+(unstack i c) 
+24:
+(put-down i) 
+25:
+(unstack c d) 
+26:
+(put-down c) 
+27:
+(pick-up i) 
+28:
+(stack i d) 
+29:
+(pick-up c) 
+30:
+(stack c g) 
+31:
+(unstack i d) 
+32:
+(stack i c) 
+33:
+(unstack d f) 
+34:
+(put-down d) 
+35:
+(unstack i c) 
+36:
+(put-down i) 
+37:
+(pick-up f) 
+38:
+(stack f i) 
+39:
+(pick-up d) 
+40:
+(stack d f) 
+41:
+(unstack c g) 
+42:
+(put-down c) 
+43:
+(unstack g j) 
+44:
+(put-down g) 
+45:
+(unstack j a) 
+46:
+(put-down j) 
+47:
+(unstack a b) 
+48:
+(stack a e) 
+49:
+(pick-up b) 
+50:
+(stack b d) 
+51:
+(pick-up c) 
+52:
+(stack c b) 
+53:
+(pick-up g) 
+54:
+(stack g j) 
+55:
+(unstack a e) 
+56:
+(stack a c) 
+57:
+(unstack e h) 
+58:
+(put-down e) 
+59:
+(pick-up h) 
+60:
+(stack h g) 
+61:
+(pick-up e) 
+62:
+(stack e h) 
+63:
+(unstack a c) 
+64:
+(stack a e) 
+65:
+(unstack c b) 
+66:
+(put-down c) 
+67:
+(unstack b d) 
+68:
+(put-down b) 
+69:
+(pick-up c) 
+70:
+(stack c b) 
+71:
+(unstack d f) 
+72:
+(put-down d) 
+73:
+(unstack c b) 
+74:
+(put-down c) 
+75:
+(pick-up b) 
+76:
+(stack b d) 
+77:
+(pick-up c) 
+78:
+(stack c b) 
+79:
+(unstack f i) 
+80:
+(put-down f) 
+81:
+(pick-up i) 
+82:
+(stack i a) 
+83:
+(pick-up f) 
+84:
+(stack f i) 
+85:
+(unstack c b) 
+86:
+(put-down c) 
+87:
+(unstack b d) 
+88:
+(put-down b) 
+89:
+(pick-up c) 
+90:
+(stack c b) 
+91:
+(pick-up d) 
+92:
+(stack d f) 
+93:
+(unstack c b) 
+94:
+(put-down c) 
+95:
+(pick-up b) 
+96:
+(stack b d) 
+97:
+(pick-up c) 
+98:
+(stack c b) 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (clear f)
+Deleting (handempty)
+Deleting (on f d)
+Adding (holding f)
+Adding (clear d)
+
+Checking next happening (time 2)
+Deleting (holding f)
+Adding (clear f)
+Adding (handempty)
+Adding (ontable f)
+
+Checking next happening (time 3)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d h)
+Adding (holding d)
+Adding (clear h)
+
+Checking next happening (time 4)
+Deleting (holding d)
+Deleting (clear f)
+Adding (clear d)
+Adding (handempty)
+Adding (on d f)
+
+Checking next happening (time 5)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c g)
+Adding (holding c)
+Adding (clear g)
+
+Checking next happening (time 6)
+Deleting (holding c)
+Deleting (clear h)
+Adding (clear c)
+Adding (handempty)
+Adding (on c h)
+
+Checking next happening (time 7)
+Deleting (clear g)
+Deleting (handempty)
+Deleting (on g e)
+Adding (holding g)
+Adding (clear e)
+
+Checking next happening (time 8)
+Deleting (holding g)
+Adding (clear g)
+Adding (handempty)
+Adding (ontable g)
+
+Checking next happening (time 9)
+Deleting (clear e)
+Deleting (handempty)
+Deleting (on e i)
+Adding (holding e)
+Adding (clear i)
+
+Checking next happening (time 10)
+Deleting (holding e)
+Adding (clear e)
+Adding (handempty)
+Adding (ontable e)
+
+Checking next happening (time 11)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i j)
+Adding (holding i)
+Adding (clear j)
+
+Checking next happening (time 12)
+Deleting (holding i)
+Deleting (clear d)
+Adding (clear i)
+Adding (handempty)
+Adding (on i d)
+
+Checking next happening (time 13)
+Deleting (ontable g)
+Deleting (clear g)
+Deleting (handempty)
+Adding (holding g)
+
+Checking next happening (time 14)
+Deleting (holding g)
+Deleting (clear j)
+Adding (clear g)
+Adding (handempty)
+Adding (on g j)
+
+Checking next happening (time 15)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i d)
+Adding (holding i)
+Adding (clear d)
+
+Checking next happening (time 16)
+Deleting (holding i)
+Adding (clear i)
+Adding (handempty)
+Adding (ontable i)
+
+Checking next happening (time 17)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c h)
+Adding (holding c)
+Adding (clear h)
+
+Checking next happening (time 18)
+Deleting (holding c)
+Deleting (clear d)
+Adding (clear c)
+Adding (handempty)
+Adding (on c d)
+
+Checking next happening (time 19)
+Deleting (ontable i)
+Deleting (clear i)
+Deleting (handempty)
+Adding (holding i)
+
+Checking next happening (time 20)
+Deleting (holding i)
+Deleting (clear c)
+Adding (clear i)
+Adding (handempty)
+Adding (on i c)
+
+Checking next happening (time 21)
+Deleting (ontable e)
+Deleting (clear e)
+Deleting (handempty)
+Adding (holding e)
+
+Checking next happening (time 22)
+Deleting (holding e)
+Deleting (clear h)
+Adding (clear e)
+Adding (handempty)
+Adding (on e h)
+
+Checking next happening (time 23)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i c)
+Adding (holding i)
+Adding (clear c)
+
+Checking next happening (time 24)
+Deleting (holding i)
+Adding (clear i)
+Adding (handempty)
+Adding (ontable i)
+
+Checking next happening (time 25)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c d)
+Adding (holding c)
+Adding (clear d)
+
+Checking next happening (time 26)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 27)
+Deleting (ontable i)
+Deleting (clear i)
+Deleting (handempty)
+Adding (holding i)
+
+Checking next happening (time 28)
+Deleting (holding i)
+Deleting (clear d)
+Adding (clear i)
+Adding (handempty)
+Adding (on i d)
+
+Checking next happening (time 29)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 30)
+Deleting (holding c)
+Deleting (clear g)
+Adding (clear c)
+Adding (handempty)
+Adding (on c g)
+
+Checking next happening (time 31)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i d)
+Adding (holding i)
+Adding (clear d)
+
+Checking next happening (time 32)
+Deleting (holding i)
+Deleting (clear c)
+Adding (clear i)
+Adding (handempty)
+Adding (on i c)
+
+Checking next happening (time 33)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d f)
+Adding (holding d)
+Adding (clear f)
+
+Checking next happening (time 34)
+Deleting (holding d)
+Adding (clear d)
+Adding (handempty)
+Adding (ontable d)
+
+Checking next happening (time 35)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i c)
+Adding (holding i)
+Adding (clear c)
+
+Checking next happening (time 36)
+Deleting (holding i)
+Adding (clear i)
+Adding (handempty)
+Adding (ontable i)
+
+Checking next happening (time 37)
+Deleting (ontable f)
+Deleting (clear f)
+Deleting (handempty)
+Adding (holding f)
+
+Checking next happening (time 38)
+Deleting (holding f)
+Deleting (clear i)
+Adding (clear f)
+Adding (handempty)
+Adding (on f i)
+
+Checking next happening (time 39)
+Deleting (ontable d)
+Deleting (clear d)
+Deleting (handempty)
+Adding (holding d)
+
+Checking next happening (time 40)
+Deleting (holding d)
+Deleting (clear f)
+Adding (clear d)
+Adding (handempty)
+Adding (on d f)
+
+Checking next happening (time 41)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c g)
+Adding (holding c)
+Adding (clear g)
+
+Checking next happening (time 42)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 43)
+Deleting (clear g)
+Deleting (handempty)
+Deleting (on g j)
+Adding (holding g)
+Adding (clear j)
+
+Checking next happening (time 44)
+Deleting (holding g)
+Adding (clear g)
+Adding (handempty)
+Adding (ontable g)
+
+Checking next happening (time 45)
+Deleting (clear j)
+Deleting (handempty)
+Deleting (on j a)
+Adding (holding j)
+Adding (clear a)
+
+Checking next happening (time 46)
+Deleting (holding j)
+Adding (clear j)
+Adding (handempty)
+Adding (ontable j)
+
+Checking next happening (time 47)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a b)
+Adding (holding a)
+Adding (clear b)
+
+Checking next happening (time 48)
+Deleting (holding a)
+Deleting (clear e)
+Adding (clear a)
+Adding (handempty)
+Adding (on a e)
+
+Checking next happening (time 49)
+Deleting (ontable b)
+Deleting (clear b)
+Deleting (handempty)
+Adding (holding b)
+
+Checking next happening (time 50)
+Deleting (holding b)
+Deleting (clear d)
+Adding (clear b)
+Adding (handempty)
+Adding (on b d)
+
+Checking next happening (time 51)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 52)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 53)
+Deleting (ontable g)
+Deleting (clear g)
+Deleting (handempty)
+Adding (holding g)
+
+Checking next happening (time 54)
+Deleting (holding g)
+Deleting (clear j)
+Adding (clear g)
+Adding (handempty)
+Adding (on g j)
+
+Checking next happening (time 55)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a e)
+Adding (holding a)
+Adding (clear e)
+
+Checking next happening (time 56)
+Deleting (holding a)
+Deleting (clear c)
+Adding (clear a)
+Adding (handempty)
+Adding (on a c)
+
+Checking next happening (time 57)
+Deleting (clear e)
+Deleting (handempty)
+Deleting (on e h)
+Adding (holding e)
+Adding (clear h)
+
+Checking next happening (time 58)
+Deleting (holding e)
+Adding (clear e)
+Adding (handempty)
+Adding (ontable e)
+
+Checking next happening (time 59)
+Deleting (ontable h)
+Deleting (clear h)
+Deleting (handempty)
+Adding (holding h)
+
+Checking next happening (time 60)
+Deleting (holding h)
+Deleting (clear g)
+Adding (clear h)
+Adding (handempty)
+Adding (on h g)
+
+Checking next happening (time 61)
+Deleting (ontable e)
+Deleting (clear e)
+Deleting (handempty)
+Adding (holding e)
+
+Checking next happening (time 62)
+Deleting (holding e)
+Deleting (clear h)
+Adding (clear e)
+Adding (handempty)
+Adding (on e h)
+
+Checking next happening (time 63)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a c)
+Adding (holding a)
+Adding (clear c)
+
+Checking next happening (time 64)
+Deleting (holding a)
+Deleting (clear e)
+Adding (clear a)
+Adding (handempty)
+Adding (on a e)
+
+Checking next happening (time 65)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 66)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 67)
+Deleting (clear b)
+Deleting (handempty)
+Deleting (on b d)
+Adding (holding b)
+Adding (clear d)
+
+Checking next happening (time 68)
+Deleting (holding b)
+Adding (clear b)
+Adding (handempty)
+Adding (ontable b)
+
+Checking next happening (time 69)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 70)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 71)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d f)
+Adding (holding d)
+Adding (clear f)
+
+Checking next happening (time 72)
+Deleting (holding d)
+Adding (clear d)
+Adding (handempty)
+Adding (ontable d)
+
+Checking next happening (time 73)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 74)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 75)
+Deleting (ontable b)
+Deleting (clear b)
+Deleting (handempty)
+Adding (holding b)
+
+Checking next happening (time 76)
+Deleting (holding b)
+Deleting (clear d)
+Adding (clear b)
+Adding (handempty)
+Adding (on b d)
+
+Checking next happening (time 77)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 78)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 79)
+Deleting (clear f)
+Deleting (handempty)
+Deleting (on f i)
+Adding (holding f)
+Adding (clear i)
+
+Checking next happening (time 80)
+Deleting (holding f)
+Adding (clear f)
+Adding (handempty)
+Adding (ontable f)
+
+Checking next happening (time 81)
+Deleting (ontable i)
+Deleting (clear i)
+Deleting (handempty)
+Adding (holding i)
+
+Checking next happening (time 82)
+Deleting (holding i)
+Deleting (clear a)
+Adding (clear i)
+Adding (handempty)
+Adding (on i a)
+
+Checking next happening (time 83)
+Deleting (ontable f)
+Deleting (clear f)
+Deleting (handempty)
+Adding (holding f)
+
+Checking next happening (time 84)
+Deleting (holding f)
+Deleting (clear i)
+Adding (clear f)
+Adding (handempty)
+Adding (on f i)
+
+Checking next happening (time 85)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 86)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 87)
+Deleting (clear b)
+Deleting (handempty)
+Deleting (on b d)
+Adding (holding b)
+Adding (clear d)
+
+Checking next happening (time 88)
+Deleting (holding b)
+Adding (clear b)
+Adding (handempty)
+Adding (ontable b)
+
+Checking next happening (time 89)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 90)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 91)
+Deleting (ontable d)
+Deleting (clear d)
+Deleting (handempty)
+Adding (holding d)
+
+Checking next happening (time 92)
+Deleting (holding d)
+Deleting (clear f)
+Adding (clear d)
+Adding (handempty)
+Adding (on d f)
+
+Checking next happening (time 93)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 94)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 95)
+Deleting (ontable b)
+Deleting (clear b)
+Deleting (handempty)
+Adding (holding b)
+
+Checking next happening (time 96)
+Deleting (holding b)
+Deleting (clear d)
+Adding (clear b)
+Adding (handempty)
+Adding (on b d)
+
+Checking next happening (time 97)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 98)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 98 
+
+Successful plans:
+Value: 98
+ pddl20.txt 98 
+
+Type-checking pick-up
+...action passes type checking.
+Type-checking put-down
+...action passes type checking.
+Type-checking stack
+...action passes type checking.
+Type-checking unstack
+...action passes type checking.
+Checking plan: pddl10.txt
+Plan to validate:
+
+Plan size: 54
+1:
+(unstack e g) 
+2:
+(put-down e) 
+3:
+(unstack g b) 
+4:
+(put-down g) 
+5:
+(unstack b a) 
+6:
+(stack b e) 
+7:
+(unstack a f) 
+8:
+(stack a g) 
+9:
+(unstack f c) 
+10:
+(put-down f) 
+11:
+(unstack c d) 
+12:
+(stack c f) 
+13:
+(unstack b e) 
+14:
+(stack b c) 
+15:
+(pick-up d) 
+16:
+(stack d e) 
+17:
+(unstack b c) 
+18:
+(put-down b) 
+19:
+(unstack d e) 
+20:
+(stack d b) 
+21:
+(unstack a g) 
+22:
+(stack a e) 
+23:
+(pick-up g) 
+24:
+(stack g d) 
+25:
+(unstack a e) 
+26:
+(stack a g) 
+27:
+(unstack c f) 
+28:
+(stack c e) 
+29:
+(pick-up f) 
+30:
+(stack f a) 
+31:
+(unstack c e) 
+32:
+(put-down c) 
+33:
+(unstack f a) 
+34:
+(stack f e) 
+35:
+(pick-up c) 
+36:
+(stack c f) 
+37:
+(unstack a g) 
+38:
+(put-down a) 
+39:
+(unstack g d) 
+40:
+(put-down g) 
+41:
+(pick-up a) 
+42:
+(stack a g) 
+43:
+(unstack d b) 
+44:
+(put-down d) 
+45:
+(pick-up b) 
+46:
+(stack b c) 
+47:
+(pick-up d) 
+48:
+(stack d b) 
+49:
+(unstack a g) 
+50:
+(put-down a) 
+51:
+(pick-up g) 
+52:
+(stack g d) 
+53:
+(pick-up a) 
+54:
+(stack a g) 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (clear e)
+Deleting (handempty)
+Deleting (on e g)
+Adding (holding e)
+Adding (clear g)
+
+Checking next happening (time 2)
+Deleting (holding e)
+Adding (clear e)
+Adding (handempty)
+Adding (ontable e)
+
+Checking next happening (time 3)
+Deleting (clear g)
+Deleting (handempty)
+Deleting (on g b)
+Adding (holding g)
+Adding (clear b)
+
+Checking next happening (time 4)
+Deleting (holding g)
+Adding (clear g)
+Adding (handempty)
+Adding (ontable g)
+
+Checking next happening (time 5)
+Deleting (clear b)
+Deleting (handempty)
+Deleting (on b a)
+Adding (holding b)
+Adding (clear a)
+
+Checking next happening (time 6)
+Deleting (holding b)
+Deleting (clear e)
+Adding (clear b)
+Adding (handempty)
+Adding (on b e)
+
+Checking next happening (time 7)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a f)
+Adding (holding a)
+Adding (clear f)
+
+Checking next happening (time 8)
+Deleting (holding a)
+Deleting (clear g)
+Adding (clear a)
+Adding (handempty)
+Adding (on a g)
+
+Checking next happening (time 9)
+Deleting (clear f)
+Deleting (handempty)
+Deleting (on f c)
+Adding (holding f)
+Adding (clear c)
+
+Checking next happening (time 10)
+Deleting (holding f)
+Adding (clear f)
+Adding (handempty)
+Adding (ontable f)
+
+Checking next happening (time 11)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c d)
+Adding (holding c)
+Adding (clear d)
+
+Checking next happening (time 12)
+Deleting (holding c)
+Deleting (clear f)
+Adding (clear c)
+Adding (handempty)
+Adding (on c f)
+
+Checking next happening (time 13)
+Deleting (clear b)
+Deleting (handempty)
+Deleting (on b e)
+Adding (holding b)
+Adding (clear e)
+
+Checking next happening (time 14)
+Deleting (holding b)
+Deleting (clear c)
+Adding (clear b)
+Adding (handempty)
+Adding (on b c)
+
+Checking next happening (time 15)
+Deleting (ontable d)
+Deleting (clear d)
+Deleting (handempty)
+Adding (holding d)
+
+Checking next happening (time 16)
+Deleting (holding d)
+Deleting (clear e)
+Adding (clear d)
+Adding (handempty)
+Adding (on d e)
+
+Checking next happening (time 17)
+Deleting (clear b)
+Deleting (handempty)
+Deleting (on b c)
+Adding (holding b)
+Adding (clear c)
+
+Checking next happening (time 18)
+Deleting (holding b)
+Adding (clear b)
+Adding (handempty)
+Adding (ontable b)
+
+Checking next happening (time 19)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d e)
+Adding (holding d)
+Adding (clear e)
+
+Checking next happening (time 20)
+Deleting (holding d)
+Deleting (clear b)
+Adding (clear d)
+Adding (handempty)
+Adding (on d b)
+
+Checking next happening (time 21)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a g)
+Adding (holding a)
+Adding (clear g)
+
+Checking next happening (time 22)
+Deleting (holding a)
+Deleting (clear e)
+Adding (clear a)
+Adding (handempty)
+Adding (on a e)
+
+Checking next happening (time 23)
+Deleting (ontable g)
+Deleting (clear g)
+Deleting (handempty)
+Adding (holding g)
+
+Checking next happening (time 24)
+Deleting (holding g)
+Deleting (clear d)
+Adding (clear g)
+Adding (handempty)
+Adding (on g d)
+
+Checking next happening (time 25)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a e)
+Adding (holding a)
+Adding (clear e)
+
+Checking next happening (time 26)
+Deleting (holding a)
+Deleting (clear g)
+Adding (clear a)
+Adding (handempty)
+Adding (on a g)
+
+Checking next happening (time 27)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c f)
+Adding (holding c)
+Adding (clear f)
+
+Checking next happening (time 28)
+Deleting (holding c)
+Deleting (clear e)
+Adding (clear c)
+Adding (handempty)
+Adding (on c e)
+
+Checking next happening (time 29)
+Deleting (ontable f)
+Deleting (clear f)
+Deleting (handempty)
+Adding (holding f)
+
+Checking next happening (time 30)
+Deleting (holding f)
+Deleting (clear a)
+Adding (clear f)
+Adding (handempty)
+Adding (on f a)
+
+Checking next happening (time 31)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c e)
+Adding (holding c)
+Adding (clear e)
+
+Checking next happening (time 32)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 33)
+Deleting (clear f)
+Deleting (handempty)
+Deleting (on f a)
+Adding (holding f)
+Adding (clear a)
+
+Checking next happening (time 34)
+Deleting (holding f)
+Deleting (clear e)
+Adding (clear f)
+Adding (handempty)
+Adding (on f e)
+
+Checking next happening (time 35)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 36)
+Deleting (holding c)
+Deleting (clear f)
+Adding (clear c)
+Adding (handempty)
+Adding (on c f)
+
+Checking next happening (time 37)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a g)
+Adding (holding a)
+Adding (clear g)
+
+Checking next happening (time 38)
+Deleting (holding a)
+Adding (clear a)
+Adding (handempty)
+Adding (ontable a)
+
+Checking next happening (time 39)
+Deleting (clear g)
+Deleting (handempty)
+Deleting (on g d)
+Adding (holding g)
+Adding (clear d)
+
+Checking next happening (time 40)
+Deleting (holding g)
+Adding (clear g)
+Adding (handempty)
+Adding (ontable g)
+
+Checking next happening (time 41)
+Deleting (ontable a)
+Deleting (clear a)
+Deleting (handempty)
+Adding (holding a)
+
+Checking next happening (time 42)
+Deleting (holding a)
+Deleting (clear g)
+Adding (clear a)
+Adding (handempty)
+Adding (on a g)
+
+Checking next happening (time 43)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d b)
+Adding (holding d)
+Adding (clear b)
+
+Checking next happening (time 44)
+Deleting (holding d)
+Adding (clear d)
+Adding (handempty)
+Adding (ontable d)
+
+Checking next happening (time 45)
+Deleting (ontable b)
+Deleting (clear b)
+Deleting (handempty)
+Adding (holding b)
+
+Checking next happening (time 46)
+Deleting (holding b)
+Deleting (clear c)
+Adding (clear b)
+Adding (handempty)
+Adding (on b c)
+
+Checking next happening (time 47)
+Deleting (ontable d)
+Deleting (clear d)
+Deleting (handempty)
+Adding (holding d)
+
+Checking next happening (time 48)
+Deleting (holding d)
+Deleting (clear b)
+Adding (clear d)
+Adding (handempty)
+Adding (on d b)
+
+Checking next happening (time 49)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a g)
+Adding (holding a)
+Adding (clear g)
+
+Checking next happening (time 50)
+Deleting (holding a)
+Adding (clear a)
+Adding (handempty)
+Adding (ontable a)
+
+Checking next happening (time 51)
+Deleting (ontable g)
+Deleting (clear g)
+Deleting (handempty)
+Adding (holding g)
+
+Checking next happening (time 52)
+Deleting (holding g)
+Deleting (clear d)
+Adding (clear g)
+Adding (handempty)
+Adding (on g d)
+
+Checking next happening (time 53)
+Deleting (ontable a)
+Deleting (clear a)
+Deleting (handempty)
+Adding (holding a)
+
+Checking next happening (time 54)
+Deleting (holding a)
+Deleting (clear g)
+Adding (clear a)
+Adding (handempty)
+Adding (on a g)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 54 
+
+Successful plans:
+Value: 54
+ pddl10.txt 54 
+\section{Zenotravel}
+Type-checking board
+...action passes type checking.
+Type-checking debark
+...action passes type checking.
+Type-checking fly
+...action passes type checking.
+Type-checking zoom
+...action passes type checking.
+Type-checking refuel
+...action passes type checking.
+Checking plan: pddl10.txt
+Plan to validate:
+
+Plan size: 31
+1:
+(zoom plane1 city0 city2 fl2 fl1 fl0)
+2:
+(board person4 plane2 city4)
+3:
+(board person3 plane2 city4)
+4:
+(zoom plane3 city2 city3 fl2 fl1 fl0)
+5:
+(zoom plane2 city4 city1 fl5 fl4 fl3)
+6:
+(debark person4 plane2 city1)
+7:
+(board person5 plane2 city1) 
+8:
+(board person7 plane2 city1) 
+9:
+(zoom plane2 city1 city0 fl3 fl2 fl1)
+10:
+(debark person5 plane2 city0)
+11:
+(board person8 plane2 city0)
+12:
+(board person6 plane2 city0)
+13:
+(refuel plane2 city0 fl1 fl2)
+14:
+(fly plane2 city0 city1 fl2 fl1)
+15:
+(refuel plane2 city1 fl1 fl2)
+16:
+(refuel plane2 city1 fl2 fl3)
+17:
+(board person2 plane3 city3)
+18:
+(refuel plane2 city1 fl3 fl4)
+19:
+(refuel plane3 city3 fl0 fl1)
+20:
+(fly plane3 city3 city2 fl1 fl0)
+21:
+(debark person2 plane3 city2)
+22:
+(refuel plane2 city1 fl4 fl5)
+23:
+(fly plane2 city1 city3 fl5 fl4)
+24:
+(debark person3 plane2 city3)
+25:
+(debark person6 plane2 city3)
+26:
+(debark person8 plane2 city3)
+27:
+(board person1 plane2 city3)
+28:
+(zoom plane2 city3 city1 fl4 fl3 fl2)
+29:
+(debark person1 plane2 city1)
+30:
+(fly plane2 city1 city4 fl2 fl1)
+31:
+(debark person7 plane2 city4)
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (at plane1 city0)
+Deleting (fuel-level plane1 fl2)
+Adding (at plane1 city2)
+Adding (fuel-level plane1 fl0)
+
+Checking next happening (time 2)
+Deleting (at person4 city4)
+Adding (in person4 plane2)
+
+Checking next happening (time 3)
+Deleting (at person3 city4)
+Adding (in person3 plane2)
+
+Checking next happening (time 4)
+Deleting (at plane3 city2)
+Deleting (fuel-level plane3 fl2)
+Adding (at plane3 city3)
+Adding (fuel-level plane3 fl0)
+
+Checking next happening (time 5)
+Deleting (at plane2 city4)
+Deleting (fuel-level plane2 fl5)
+Adding (at plane2 city1)
+Adding (fuel-level plane2 fl3)
+
+Checking next happening (time 6)
+Deleting (in person4 plane2)
+Adding (at person4 city1)
+
+Checking next happening (time 7)
+Deleting (at person5 city1)
+Adding (in person5 plane2)
+
+Checking next happening (time 8)
+Deleting (at person7 city1)
+Adding (in person7 plane2)
+
+Checking next happening (time 9)
+Deleting (at plane2 city1)
+Deleting (fuel-level plane2 fl3)
+Adding (at plane2 city0)
+Adding (fuel-level plane2 fl1)
+
+Checking next happening (time 10)
+Deleting (in person5 plane2)
+Adding (at person5 city0)
+
+Checking next happening (time 11)
+Deleting (at person8 city0)
+Adding (in person8 plane2)
+
+Checking next happening (time 12)
+Deleting (at person6 city0)
+Adding (in person6 plane2)
+
+Checking next happening (time 13)
+Deleting (fuel-level plane2 fl1)
+Adding (fuel-level plane2 fl2)
+
+Checking next happening (time 14)
+Deleting (at plane2 city0)
+Deleting (fuel-level plane2 fl2)
+Adding (at plane2 city1)
+Adding (fuel-level plane2 fl1)
+
+Checking next happening (time 15)
+Deleting (fuel-level plane2 fl1)
+Adding (fuel-level plane2 fl2)
+
+Checking next happening (time 16)
+Deleting (fuel-level plane2 fl2)
+Adding (fuel-level plane2 fl3)
+
+Checking next happening (time 17)
+Deleting (at person2 city3)
+Adding (in person2 plane3)
+
+Checking next happening (time 18)
+Deleting (fuel-level plane2 fl3)
+Adding (fuel-level plane2 fl4)
+
+Checking next happening (time 19)
+Deleting (fuel-level plane3 fl0)
+Adding (fuel-level plane3 fl1)
+
+Checking next happening (time 20)
+Deleting (at plane3 city3)
+Deleting (fuel-level plane3 fl1)
+Adding (at plane3 city2)
+Adding (fuel-level plane3 fl0)
+
+Checking next happening (time 21)
+Deleting (in person2 plane3)
+Adding (at person2 city2)
+
+Checking next happening (time 22)
+Deleting (fuel-level plane2 fl4)
+Adding (fuel-level plane2 fl5)
+
+Checking next happening (time 23)
+Deleting (at plane2 city1)
+Deleting (fuel-level plane2 fl5)
+Adding (at plane2 city3)
+Adding (fuel-level plane2 fl4)
+
+Checking next happening (time 24)
+Deleting (in person3 plane2)
+Adding (at person3 city3)
+
+Checking next happening (time 25)
+Deleting (in person6 plane2)
+Adding (at person6 city3)
+
+Checking next happening (time 26)
+Deleting (in person8 plane2)
+Adding (at person8 city3)
+
+Checking next happening (time 27)
+Deleting (at person1 city3)
+Adding (in person1 plane2)
+
+Checking next happening (time 28)
+Deleting (at plane2 city3)
+Deleting (fuel-level plane2 fl4)
+Adding (at plane2 city1)
+Adding (fuel-level plane2 fl2)
+
+Checking next happening (time 29)
+Deleting (in person1 plane2)
+Adding (at person1 city1)
+
+Checking next happening (time 30)
+Deleting (at plane2 city1)
+Deleting (fuel-level plane2 fl2)
+Adding (at plane2 city4)
+Adding (fuel-level plane2 fl1)
+
+Checking next happening (time 31)
+Deleting (in person7 plane2)
+Adding (at person7 city4)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 31 
+
+Successful plans:
+Value: 31
+ pddl10.txt 31 

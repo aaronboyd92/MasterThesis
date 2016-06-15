@@ -1,0 +1,962 @@
+Type-checking pick-up
+...action passes type checking.
+Type-checking put-down
+...action passes type checking.
+Type-checking stack
+...action passes type checking.
+Type-checking unstack
+...action passes type checking.
+Checking plan: pddl20.txt
+Plan to validate:
+
+Plan size: 98
+1:
+(unstack f d)
+ 
+2:
+(put-down f)
+ 
+3:
+(unstack d h)
+ 
+4:
+(stack d f)
+ 
+5:
+(unstack c g)
+ 
+6:
+(stack c h)
+ 
+7:
+(unstack g e)
+ 
+8:
+(put-down g)
+ 
+9:
+(unstack e i)
+ 
+10:
+(put-down e)
+ 
+11:
+(unstack i j)
+ 
+12:
+(stack i d)
+ 
+13:
+(pick-up g)
+ 
+14:
+(stack g j)
+ 
+15:
+(unstack i d)
+ 
+16:
+(put-down i)
+ 
+17:
+(unstack c h)
+ 
+18:
+(stack c d)
+ 
+19:
+(pick-up i)
+ 
+20:
+(stack i c)
+ 
+21:
+(pick-up e)
+ 
+22:
+(stack e h)
+ 
+23:
+(unstack i c)
+ 
+24:
+(put-down i)
+ 
+25:
+(unstack c d)
+ 
+26:
+(put-down c)
+ 
+27:
+(pick-up i)
+ 
+28:
+(stack i d)
+ 
+29:
+(pick-up c)
+ 
+30:
+(stack c g)
+ 
+31:
+(unstack i d)
+ 
+32:
+(stack i c)
+ 
+33:
+(unstack d f)
+ 
+34:
+(put-down d)
+ 
+35:
+(unstack i c)
+ 
+36:
+(put-down i)
+ 
+37:
+(pick-up f)
+ 
+38:
+(stack f i)
+ 
+39:
+(pick-up d)
+ 
+40:
+(stack d f)
+ 
+41:
+(unstack c g)
+ 
+42:
+(put-down c)
+ 
+43:
+(unstack g j)
+ 
+44:
+(put-down g)
+ 
+45:
+(unstack j a)
+ 
+46:
+(put-down j)
+ 
+47:
+(unstack a b)
+ 
+48:
+(stack a e)
+ 
+49:
+(pick-up b)
+ 
+50:
+(stack b d)
+ 
+51:
+(pick-up c)
+ 
+52:
+(stack c b)
+ 
+53:
+(pick-up g)
+ 
+54:
+(stack g j)
+ 
+55:
+(unstack a e)
+ 
+56:
+(stack a c)
+ 
+57:
+(unstack e h)
+ 
+58:
+(put-down e)
+ 
+59:
+(pick-up h)
+ 
+60:
+(stack h g)
+ 
+61:
+(pick-up e)
+ 
+62:
+(stack e h)
+ 
+63:
+(unstack a c)
+ 
+64:
+(stack a e)
+ 
+65:
+(unstack c b)
+ 
+66:
+(put-down c)
+ 
+67:
+(unstack b d)
+ 
+68:
+(put-down b)
+ 
+69:
+(pick-up c)
+ 
+70:
+(stack c b)
+ 
+71:
+(unstack d f)
+ 
+72:
+(put-down d)
+ 
+73:
+(unstack c b)
+ 
+74:
+(put-down c)
+ 
+75:
+(pick-up b)
+ 
+76:
+(stack b d)
+ 
+77:
+(pick-up c)
+ 
+78:
+(stack c b)
+ 
+79:
+(unstack f i)
+ 
+80:
+(put-down f)
+ 
+81:
+(pick-up i)
+ 
+82:
+(stack i a)
+ 
+83:
+(pick-up f)
+ 
+84:
+(stack f i)
+ 
+85:
+(unstack c b)
+ 
+86:
+(put-down c)
+ 
+87:
+(unstack b d)
+ 
+88:
+(put-down b)
+ 
+89:
+(pick-up c)
+ 
+90:
+(stack c b)
+ 
+91:
+(pick-up d)
+ 
+92:
+(stack d f)
+ 
+93:
+(unstack c b)
+ 
+94:
+(put-down c)
+ 
+95:
+(pick-up b)
+ 
+96:
+(stack b d)
+ 
+97:
+(pick-up c)
+ 
+98:
+(stack c b)
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (clear f)
+Deleting (handempty)
+Deleting (on f d)
+Adding (holding f)
+Adding (clear d)
+
+Checking next happening (time 2)
+Deleting (holding f)
+Adding (clear f)
+Adding (handempty)
+Adding (ontable f)
+
+Checking next happening (time 3)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d h)
+Adding (holding d)
+Adding (clear h)
+
+Checking next happening (time 4)
+Deleting (holding d)
+Deleting (clear f)
+Adding (clear d)
+Adding (handempty)
+Adding (on d f)
+
+Checking next happening (time 5)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c g)
+Adding (holding c)
+Adding (clear g)
+
+Checking next happening (time 6)
+Deleting (holding c)
+Deleting (clear h)
+Adding (clear c)
+Adding (handempty)
+Adding (on c h)
+
+Checking next happening (time 7)
+Deleting (clear g)
+Deleting (handempty)
+Deleting (on g e)
+Adding (holding g)
+Adding (clear e)
+
+Checking next happening (time 8)
+Deleting (holding g)
+Adding (clear g)
+Adding (handempty)
+Adding (ontable g)
+
+Checking next happening (time 9)
+Deleting (clear e)
+Deleting (handempty)
+Deleting (on e i)
+Adding (holding e)
+Adding (clear i)
+
+Checking next happening (time 10)
+Deleting (holding e)
+Adding (clear e)
+Adding (handempty)
+Adding (ontable e)
+
+Checking next happening (time 11)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i j)
+Adding (holding i)
+Adding (clear j)
+
+Checking next happening (time 12)
+Deleting (holding i)
+Deleting (clear d)
+Adding (clear i)
+Adding (handempty)
+Adding (on i d)
+
+Checking next happening (time 13)
+Deleting (ontable g)
+Deleting (clear g)
+Deleting (handempty)
+Adding (holding g)
+
+Checking next happening (time 14)
+Deleting (holding g)
+Deleting (clear j)
+Adding (clear g)
+Adding (handempty)
+Adding (on g j)
+
+Checking next happening (time 15)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i d)
+Adding (holding i)
+Adding (clear d)
+
+Checking next happening (time 16)
+Deleting (holding i)
+Adding (clear i)
+Adding (handempty)
+Adding (ontable i)
+
+Checking next happening (time 17)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c h)
+Adding (holding c)
+Adding (clear h)
+
+Checking next happening (time 18)
+Deleting (holding c)
+Deleting (clear d)
+Adding (clear c)
+Adding (handempty)
+Adding (on c d)
+
+Checking next happening (time 19)
+Deleting (ontable i)
+Deleting (clear i)
+Deleting (handempty)
+Adding (holding i)
+
+Checking next happening (time 20)
+Deleting (holding i)
+Deleting (clear c)
+Adding (clear i)
+Adding (handempty)
+Adding (on i c)
+
+Checking next happening (time 21)
+Deleting (ontable e)
+Deleting (clear e)
+Deleting (handempty)
+Adding (holding e)
+
+Checking next happening (time 22)
+Deleting (holding e)
+Deleting (clear h)
+Adding (clear e)
+Adding (handempty)
+Adding (on e h)
+
+Checking next happening (time 23)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i c)
+Adding (holding i)
+Adding (clear c)
+
+Checking next happening (time 24)
+Deleting (holding i)
+Adding (clear i)
+Adding (handempty)
+Adding (ontable i)
+
+Checking next happening (time 25)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c d)
+Adding (holding c)
+Adding (clear d)
+
+Checking next happening (time 26)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 27)
+Deleting (ontable i)
+Deleting (clear i)
+Deleting (handempty)
+Adding (holding i)
+
+Checking next happening (time 28)
+Deleting (holding i)
+Deleting (clear d)
+Adding (clear i)
+Adding (handempty)
+Adding (on i d)
+
+Checking next happening (time 29)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 30)
+Deleting (holding c)
+Deleting (clear g)
+Adding (clear c)
+Adding (handempty)
+Adding (on c g)
+
+Checking next happening (time 31)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i d)
+Adding (holding i)
+Adding (clear d)
+
+Checking next happening (time 32)
+Deleting (holding i)
+Deleting (clear c)
+Adding (clear i)
+Adding (handempty)
+Adding (on i c)
+
+Checking next happening (time 33)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d f)
+Adding (holding d)
+Adding (clear f)
+
+Checking next happening (time 34)
+Deleting (holding d)
+Adding (clear d)
+Adding (handempty)
+Adding (ontable d)
+
+Checking next happening (time 35)
+Deleting (clear i)
+Deleting (handempty)
+Deleting (on i c)
+Adding (holding i)
+Adding (clear c)
+
+Checking next happening (time 36)
+Deleting (holding i)
+Adding (clear i)
+Adding (handempty)
+Adding (ontable i)
+
+Checking next happening (time 37)
+Deleting (ontable f)
+Deleting (clear f)
+Deleting (handempty)
+Adding (holding f)
+
+Checking next happening (time 38)
+Deleting (holding f)
+Deleting (clear i)
+Adding (clear f)
+Adding (handempty)
+Adding (on f i)
+
+Checking next happening (time 39)
+Deleting (ontable d)
+Deleting (clear d)
+Deleting (handempty)
+Adding (holding d)
+
+Checking next happening (time 40)
+Deleting (holding d)
+Deleting (clear f)
+Adding (clear d)
+Adding (handempty)
+Adding (on d f)
+
+Checking next happening (time 41)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c g)
+Adding (holding c)
+Adding (clear g)
+
+Checking next happening (time 42)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 43)
+Deleting (clear g)
+Deleting (handempty)
+Deleting (on g j)
+Adding (holding g)
+Adding (clear j)
+
+Checking next happening (time 44)
+Deleting (holding g)
+Adding (clear g)
+Adding (handempty)
+Adding (ontable g)
+
+Checking next happening (time 45)
+Deleting (clear j)
+Deleting (handempty)
+Deleting (on j a)
+Adding (holding j)
+Adding (clear a)
+
+Checking next happening (time 46)
+Deleting (holding j)
+Adding (clear j)
+Adding (handempty)
+Adding (ontable j)
+
+Checking next happening (time 47)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a b)
+Adding (holding a)
+Adding (clear b)
+
+Checking next happening (time 48)
+Deleting (holding a)
+Deleting (clear e)
+Adding (clear a)
+Adding (handempty)
+Adding (on a e)
+
+Checking next happening (time 49)
+Deleting (ontable b)
+Deleting (clear b)
+Deleting (handempty)
+Adding (holding b)
+
+Checking next happening (time 50)
+Deleting (holding b)
+Deleting (clear d)
+Adding (clear b)
+Adding (handempty)
+Adding (on b d)
+
+Checking next happening (time 51)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 52)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 53)
+Deleting (ontable g)
+Deleting (clear g)
+Deleting (handempty)
+Adding (holding g)
+
+Checking next happening (time 54)
+Deleting (holding g)
+Deleting (clear j)
+Adding (clear g)
+Adding (handempty)
+Adding (on g j)
+
+Checking next happening (time 55)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a e)
+Adding (holding a)
+Adding (clear e)
+
+Checking next happening (time 56)
+Deleting (holding a)
+Deleting (clear c)
+Adding (clear a)
+Adding (handempty)
+Adding (on a c)
+
+Checking next happening (time 57)
+Deleting (clear e)
+Deleting (handempty)
+Deleting (on e h)
+Adding (holding e)
+Adding (clear h)
+
+Checking next happening (time 58)
+Deleting (holding e)
+Adding (clear e)
+Adding (handempty)
+Adding (ontable e)
+
+Checking next happening (time 59)
+Deleting (ontable h)
+Deleting (clear h)
+Deleting (handempty)
+Adding (holding h)
+
+Checking next happening (time 60)
+Deleting (holding h)
+Deleting (clear g)
+Adding (clear h)
+Adding (handempty)
+Adding (on h g)
+
+Checking next happening (time 61)
+Deleting (ontable e)
+Deleting (clear e)
+Deleting (handempty)
+Adding (holding e)
+
+Checking next happening (time 62)
+Deleting (holding e)
+Deleting (clear h)
+Adding (clear e)
+Adding (handempty)
+Adding (on e h)
+
+Checking next happening (time 63)
+Deleting (clear a)
+Deleting (handempty)
+Deleting (on a c)
+Adding (holding a)
+Adding (clear c)
+
+Checking next happening (time 64)
+Deleting (holding a)
+Deleting (clear e)
+Adding (clear a)
+Adding (handempty)
+Adding (on a e)
+
+Checking next happening (time 65)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 66)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 67)
+Deleting (clear b)
+Deleting (handempty)
+Deleting (on b d)
+Adding (holding b)
+Adding (clear d)
+
+Checking next happening (time 68)
+Deleting (holding b)
+Adding (clear b)
+Adding (handempty)
+Adding (ontable b)
+
+Checking next happening (time 69)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 70)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 71)
+Deleting (clear d)
+Deleting (handempty)
+Deleting (on d f)
+Adding (holding d)
+Adding (clear f)
+
+Checking next happening (time 72)
+Deleting (holding d)
+Adding (clear d)
+Adding (handempty)
+Adding (ontable d)
+
+Checking next happening (time 73)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 74)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 75)
+Deleting (ontable b)
+Deleting (clear b)
+Deleting (handempty)
+Adding (holding b)
+
+Checking next happening (time 76)
+Deleting (holding b)
+Deleting (clear d)
+Adding (clear b)
+Adding (handempty)
+Adding (on b d)
+
+Checking next happening (time 77)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 78)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 79)
+Deleting (clear f)
+Deleting (handempty)
+Deleting (on f i)
+Adding (holding f)
+Adding (clear i)
+
+Checking next happening (time 80)
+Deleting (holding f)
+Adding (clear f)
+Adding (handempty)
+Adding (ontable f)
+
+Checking next happening (time 81)
+Deleting (ontable i)
+Deleting (clear i)
+Deleting (handempty)
+Adding (holding i)
+
+Checking next happening (time 82)
+Deleting (holding i)
+Deleting (clear a)
+Adding (clear i)
+Adding (handempty)
+Adding (on i a)
+
+Checking next happening (time 83)
+Deleting (ontable f)
+Deleting (clear f)
+Deleting (handempty)
+Adding (holding f)
+
+Checking next happening (time 84)
+Deleting (holding f)
+Deleting (clear i)
+Adding (clear f)
+Adding (handempty)
+Adding (on f i)
+
+Checking next happening (time 85)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 86)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 87)
+Deleting (clear b)
+Deleting (handempty)
+Deleting (on b d)
+Adding (holding b)
+Adding (clear d)
+
+Checking next happening (time 88)
+Deleting (holding b)
+Adding (clear b)
+Adding (handempty)
+Adding (ontable b)
+
+Checking next happening (time 89)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 90)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+
+Checking next happening (time 91)
+Deleting (ontable d)
+Deleting (clear d)
+Deleting (handempty)
+Adding (holding d)
+
+Checking next happening (time 92)
+Deleting (holding d)
+Deleting (clear f)
+Adding (clear d)
+Adding (handempty)
+Adding (on d f)
+
+Checking next happening (time 93)
+Deleting (clear c)
+Deleting (handempty)
+Deleting (on c b)
+Adding (holding c)
+Adding (clear b)
+
+Checking next happening (time 94)
+Deleting (holding c)
+Adding (clear c)
+Adding (handempty)
+Adding (ontable c)
+
+Checking next happening (time 95)
+Deleting (ontable b)
+Deleting (clear b)
+Deleting (handempty)
+Adding (holding b)
+
+Checking next happening (time 96)
+Deleting (holding b)
+Deleting (clear d)
+Adding (clear b)
+Adding (handempty)
+Adding (on b d)
+
+Checking next happening (time 97)
+Deleting (ontable c)
+Deleting (clear c)
+Deleting (handempty)
+Adding (holding c)
+
+Checking next happening (time 98)
+Deleting (holding c)
+Deleting (clear b)
+Adding (clear c)
+Adding (handempty)
+Adding (on c b)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 98 
+
+Successful plans:
+Value: 98
+ pddl20.txt 98 
+

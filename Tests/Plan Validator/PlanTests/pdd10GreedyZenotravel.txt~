@@ -1,0 +1,260 @@
+Type-checking board
+...action passes type checking.
+Type-checking debark
+...action passes type checking.
+Type-checking fly
+...action passes type checking.
+Type-checking zoom
+...action passes type checking.
+Type-checking refuel
+...action passes type checking.
+Checking plan: pddl10.txt
+Plan to validate:
+
+Plan size: 31
+1:
+(zoom plane1 city0 city2 fl2 fl1 fl0)
+ 
+2:
+(board person4 plane2 city4)
+ 
+3:
+(board person3 plane2 city4)
+ 
+4:
+(zoom plane3 city2 city3 fl2 fl1 fl0)
+ 
+5:
+(zoom plane2 city4 city1 fl5 fl4 fl3)
+ 
+6:
+(debark person4 plane2 city1)
+ 
+7:
+(board person5 plane2 city1)
+ 
+8:
+(board person7 plane2 city1)
+ 
+9:
+(zoom plane2 city1 city0 fl3 fl2 fl1)
+ 
+10:
+(debark person5 plane2 city0)
+ 
+11:
+(board person8 plane2 city0)
+ 
+12:
+(board person6 plane2 city0)
+ 
+13:
+(refuel plane2 city0 fl1 fl2)
+ 
+14:
+(fly plane2 city0 city1 fl2 fl1)
+ 
+15:
+(refuel plane2 city1 fl1 fl2)
+ 
+16:
+(refuel plane2 city1 fl2 fl3)
+ 
+17:
+(board person2 plane3 city3)
+ 
+18:
+(refuel plane2 city1 fl3 fl4)
+ 
+19:
+(refuel plane3 city3 fl0 fl1)
+ 
+20:
+(fly plane3 city3 city2 fl1 fl0)
+ 
+21:
+(debark person2 plane3 city2)
+ 
+22:
+(refuel plane2 city1 fl4 fl5)
+ 
+23:
+(fly plane2 city1 city3 fl5 fl4)
+ 
+24:
+(debark person3 plane2 city3)
+ 
+25:
+(debark person6 plane2 city3)
+ 
+26:
+(debark person8 plane2 city3)
+ 
+27:
+(board person1 plane2 city3)
+ 
+28:
+(zoom plane2 city3 city1 fl4 fl3 fl2)
+ 
+29:
+(debark person1 plane2 city1)
+ 
+30:
+(fly plane2 city1 city4 fl2 fl1)
+ 
+31:
+(debark person7 plane2 city4)
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (at plane1 city0)
+Deleting (fuel-level plane1 fl2)
+Adding (at plane1 city2)
+Adding (fuel-level plane1 fl0)
+
+Checking next happening (time 2)
+Deleting (at person4 city4)
+Adding (in person4 plane2)
+
+Checking next happening (time 3)
+Deleting (at person3 city4)
+Adding (in person3 plane2)
+
+Checking next happening (time 4)
+Deleting (at plane3 city2)
+Deleting (fuel-level plane3 fl2)
+Adding (at plane3 city3)
+Adding (fuel-level plane3 fl0)
+
+Checking next happening (time 5)
+Deleting (at plane2 city4)
+Deleting (fuel-level plane2 fl5)
+Adding (at plane2 city1)
+Adding (fuel-level plane2 fl3)
+
+Checking next happening (time 6)
+Deleting (in person4 plane2)
+Adding (at person4 city1)
+
+Checking next happening (time 7)
+Deleting (at person5 city1)
+Adding (in person5 plane2)
+
+Checking next happening (time 8)
+Deleting (at person7 city1)
+Adding (in person7 plane2)
+
+Checking next happening (time 9)
+Deleting (at plane2 city1)
+Deleting (fuel-level plane2 fl3)
+Adding (at plane2 city0)
+Adding (fuel-level plane2 fl1)
+
+Checking next happening (time 10)
+Deleting (in person5 plane2)
+Adding (at person5 city0)
+
+Checking next happening (time 11)
+Deleting (at person8 city0)
+Adding (in person8 plane2)
+
+Checking next happening (time 12)
+Deleting (at person6 city0)
+Adding (in person6 plane2)
+
+Checking next happening (time 13)
+Deleting (fuel-level plane2 fl1)
+Adding (fuel-level plane2 fl2)
+
+Checking next happening (time 14)
+Deleting (at plane2 city0)
+Deleting (fuel-level plane2 fl2)
+Adding (at plane2 city1)
+Adding (fuel-level plane2 fl1)
+
+Checking next happening (time 15)
+Deleting (fuel-level plane2 fl1)
+Adding (fuel-level plane2 fl2)
+
+Checking next happening (time 16)
+Deleting (fuel-level plane2 fl2)
+Adding (fuel-level plane2 fl3)
+
+Checking next happening (time 17)
+Deleting (at person2 city3)
+Adding (in person2 plane3)
+
+Checking next happening (time 18)
+Deleting (fuel-level plane2 fl3)
+Adding (fuel-level plane2 fl4)
+
+Checking next happening (time 19)
+Deleting (fuel-level plane3 fl0)
+Adding (fuel-level plane3 fl1)
+
+Checking next happening (time 20)
+Deleting (at plane3 city3)
+Deleting (fuel-level plane3 fl1)
+Adding (at plane3 city2)
+Adding (fuel-level plane3 fl0)
+
+Checking next happening (time 21)
+Deleting (in person2 plane3)
+Adding (at person2 city2)
+
+Checking next happening (time 22)
+Deleting (fuel-level plane2 fl4)
+Adding (fuel-level plane2 fl5)
+
+Checking next happening (time 23)
+Deleting (at plane2 city1)
+Deleting (fuel-level plane2 fl5)
+Adding (at plane2 city3)
+Adding (fuel-level plane2 fl4)
+
+Checking next happening (time 24)
+Deleting (in person3 plane2)
+Adding (at person3 city3)
+
+Checking next happening (time 25)
+Deleting (in person6 plane2)
+Adding (at person6 city3)
+
+Checking next happening (time 26)
+Deleting (in person8 plane2)
+Adding (at person8 city3)
+
+Checking next happening (time 27)
+Deleting (at person1 city3)
+Adding (in person1 plane2)
+
+Checking next happening (time 28)
+Deleting (at plane2 city3)
+Deleting (fuel-level plane2 fl4)
+Adding (at plane2 city1)
+Adding (fuel-level plane2 fl2)
+
+Checking next happening (time 29)
+Deleting (in person1 plane2)
+Adding (at person1 city1)
+
+Checking next happening (time 30)
+Deleting (at plane2 city1)
+Deleting (fuel-level plane2 fl2)
+Adding (at plane2 city4)
+Adding (fuel-level plane2 fl1)
+
+Checking next happening (time 31)
+Deleting (in person7 plane2)
+Adding (at person7 city4)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 31 
+
+Successful plans:
+Value: 31
+ pddl10.txt 31 
+

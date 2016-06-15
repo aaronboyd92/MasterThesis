@@ -1,0 +1,67 @@
+
+Unexpected error java.lang.NullPointerException
+	at fr.uga.pddl4j.parser.Parser.checkTypesDeclaration(Parser.java:598) ~[pddl4j-3.1.0.jar:3.1.0]
+	at fr.uga.pddl4j.parser.Parser.parse(Parser.java:275) [pddl4j-3.1.0.jar:3.1.0]
+	at fr.uga.pddl4j.planner.ProblemFactory.parse(ProblemFactory.java:74) [pddl4j-3.1.0.jar:3.1.0]
+	at fr.uga.pddl4j.planners.hsp.HSP.main(HSP.java:316) [pddl4j-3.1.0.jar:3.1.0]
+Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p02-domain.pddl) : unexpected token "(".Lexical error at line 35, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p02.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 0, column 0, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p01-domain.pddl) : unexpected token "".
+Was expecting:
+    "(" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p04-domain.pddl) : unexpected token "(".Lexical error at line 50, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p04.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p06-domain.pddl) : unexpected token "(".Lexical error at line 65, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p06.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p05-domain.pddl) : unexpected token "(".Lexical error at line 57, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p05.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p03-domain.pddl) : unexpected token "(".Lexical error at line 43, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p03.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p08-domain.pddl) : unexpected token "(".Lexical error at line 79, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p08.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p10-domain.pddl) : unexpected token "(".Lexical error at line 93, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p10.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p09-domain.pddl) : unexpected token "(".Lexical error at line 86, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p09.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p11-domain.pddl) : unexpected token "(".Lexical error at line 29, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p11.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p07-domain.pddl) : unexpected token "(".Lexical error at line 72, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p07.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p12-domain.pddl) : unexpected token "(".Lexical error at line 37, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p12.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p16-domain.pddl) : unexpected token "(".Lexical error at line 71, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p16.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p13-domain.pddl) : unexpected token "(".Lexical error at line 46, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p13.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p14-domain.pddl) : unexpected token "(".Lexical error at line 54, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p14.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p15-domain.pddl) : unexpected token "(".Lexical error at line 62, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p15.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p17-domain.pddl) : unexpected token "(".Lexical error at line 79, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p17.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p18-domain.pddl) : unexpected token "(".Lexical error at line 87, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p18.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p20-domain.pddl) : unexpected token "(".Lexical error at line 103, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p20.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p21-domain.pddl) : unexpected token "(".Lexical error at line 29, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p21.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p24-domain.pddl) : unexpected token "(".Lexical error at line 54, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p24.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p23-domain.pddl) : unexpected token "(".Lexical error at line 46, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p23.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p19-domain.pddl) : unexpected token "(".Lexical error at line 95, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p19.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p22-domain.pddl) : unexpected token "(".Lexical error at line 37, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p22.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p25-domain.pddl) : unexpected token "(".Lexical error at line 62, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p25.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p27-domain.pddl) : unexpected token "(".Lexical error at line 79, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p27.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p28-domain.pddl) : unexpected token "(".Lexical error at line 87, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p28.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p26-domain.pddl) : unexpected token "(".Lexical error at line 71, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p26.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p29-domain.pddl) : unexpected token "(".Lexical error at line 95, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p29.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p30-domain.pddl) : unexpected token "(".Lexical error at line 103, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p30.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...

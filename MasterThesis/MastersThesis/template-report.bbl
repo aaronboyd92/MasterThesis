@@ -1,0 +1,918 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{ICAPS2002}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {2004}{.}%
+     {IPC}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{sortinit}{2}
+  \field{title}{International Planning Competition 2002}
+  \verb{url}
+  \verb http://ipc02.icaps-conference.org/
+  \endverb
+\endentry
+
+\entry{IPC2004W}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {2004}{.}%
+     {IPC}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{sortinit}{2}
+  \field{title}{International Planning Competition Winners}
+  \verb{url}
+  \verb http://idm-lab.org/wiki/icaps/ipc2004/deterministic/
+  \endverb
+\endentry
+
+\entry{PDDL3}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Alfonso~Gerevini}{A.~G.}%
+     {Derek~Long}{D.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AGDL1}
+  \strng{fullhash}{AGDL1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb http://www.cs.yale.edu/homes/dvm/papers/pddl-ipc5.pdf
+  \endverb
+  \field{title}{Preferences and Soft Constraints in PDDL3}
+  \field{year}{2005}
+\endentry
+
+\entry{GreedyOnline}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Andrew~Coles}{A.~C.}%
+     {Amanda~Smith}{A.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ACAS1}
+  \strng{fullhash}{ACAS1}
+  \field{sortinit}{A}
+  \field{title}{Greedy Best-First Search when EHC Fails}
+  \verb{url}
+  \verb http://www.cs.cmu.edu/afs/cs/project/jair/pub/volume28/coles07a-html/no
+  \verb de11.html#modifiedbestfs
+  \endverb
+\endentry
+
+\entry{PlateauEHC}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Andrew~Coles}{A.~C.}%
+     {Amanda~Smith}{A.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ACAS1}
+  \strng{fullhash}{ACAS1}
+  \field{sortinit}{A}
+  \field{title}{Marvin: A Heuristic Search Planner with Online Macro-Action
+  Learning}
+  \verb{url}
+  \verb http://www.cs.cmu.edu/afs/cs/project/jair/pub/volume28/coles07a-html
+  \endverb
+\endentry
+
+\entry{ManhattanDistance}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Black}{B.}%
+     {Paul~E.}{P.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BPE1}
+  \strng{fullhash}{BPE1}
+  \field{sortinit}{B}
+  \field{title}{Manhattan Distance}
+  \verb{url}
+  \verb http://www.nist.gov/dads/HTML/manhattanDistance.html
+  \endverb
+\endentry
+
+\entry{PlanningHeuristic}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Blai~Bonet}{B.~B.}%
+     {Hector~Geffner}{H.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BBHG1}
+  \strng{fullhash}{BBHG1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb http://www.cs.toronto.edu/~sheila/2542/s14/A1/bonetgeffner-heusearch-ai
+  \verb j01.pdf
+  \endverb
+  \field{pages}{5\bibrangedash 33}
+  \field{title}{Planning as Heuristic Search}
+  \field{volume}{129}
+  \field{journaltitle}{Artificial Intelligence}
+  \field{year}{2001}
+\endentry
+
+\entry{HeuristicNewResults}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Blai~Bonet}{B.~B.}%
+     {Hector~Geffner}{H.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BBHG1}
+  \strng{fullhash}{BBHG1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb www.dtic.upf.edu/~hgeffner/html/reports/hsp-r.ps
+  \endverb
+  \field{pages}{360\bibrangedash 372}
+  \field{title}{Planning as Heuristic Search: New Results}
+  \field{volume}{1809}
+  \field{journaltitle}{Recent Advances in AI Planning}
+  \field{year}{1999}
+\endentry
+
+\entry{Evaluation}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Carlos~Lopez}{C.~L.}%
+     {Sergio~Jimenez}{S.~J.}%
+     {}{}%
+     {Malte~Helmert}{M.~H.}}%
+  }
+  \strng{namehash}{CLMHSJ1}
+  \strng{fullhash}{CLMHSJ1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb http://www.dtic.upf.edu/~sjimenez/publications/carlos-aicom13/carlos-ai
+  \verb com13.pdf
+  \endverb
+  \field{pages}{331\bibrangedash 354}
+  \field{title}{Automating the Evaluation of Planning Systems}
+  \field{volume}{26}
+  \field{journaltitle}{AI Communications}
+  \field{year}{2013}
+\endentry
+
+\entry{PDDL1.2}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Committee}{C.}%
+     {AIPS-98 Planning~Competition}{A.-. P.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CAPC1}
+  \strng{fullhash}{CAPC1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb http://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf
+  \endverb
+  \field{title}{PDDL - The Planning Domain Definition Language version 1.2}
+  \field{year}{1998}
+\endentry
+
+\entry{SteveCook}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cook}{C.}%
+     {Stephen~A.}{S.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CSA1}
+  \strng{fullhash}{CSA1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb http://www.cs.utoronto.ca/~sacook/homepage/1971.pdf
+  \endverb
+  \field{title}{The Complexity of Theorem-Proving Procedures}
+  \field{journaltitle}{Proceedings Third Annual ACM Theory of Computing}
+  \field{year}{1971}
+\endentry
+
+\entry{PlanningGraphs}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Daniel~Bryce}{D.~B.}%
+     {Subbarao~Kambhampati}{S.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DBSK1}
+  \strng{fullhash}{DBSK1}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb http://www.cs.toronto.edu/~sheila/2542/s14/material/brykam-relheur-aim0
+  \verb 7.pdf
+  \endverb
+  \field{title}{A Tutorial on Planning Graph-Based Reachability Heuristics}
+  \field{year}{2007}
+\endentry
+
+\entry{SATandSAT4J}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Daniel Le~Berre}{D.~L.~B.}%
+     {Anne~Parrain}{A.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DLBAP1}
+  \strng{fullhash}{DLBAP1}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb http://www.cs.toronto.edu/~sheila/2542/s14/A1/hoffmannebel-FF-jair01.pd
+  \verb f
+  \endverb
+  \field{pages}{59\bibrangedash 64}
+  \field{title}{The Sat4j Library, Release 2.2}
+  \field{volume}{7}
+  \field{journaltitle}{Satisfiability, Boolean Modeling and Computation}
+  \field{year}{2010}
+\endentry
+
+\entry{GNU}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {GNU}{G.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{G1}
+  \strng{fullhash}{G1}
+  \field{sortinit}{G}
+  \field{title}{GNU Parallel}
+  \verb{url}
+  \verb http://www.gnu.org/software/parallel/
+  \endverb
+\endentry
+
+\entry{ValidityDef}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Google}{G.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{G2}
+  \strng{fullhash}{G2}
+  \field{sortinit}{G}
+  \field{title}{Validity Definition}
+  \verb{url}
+  \verb https://www.google.fr/search?client=ubuntu&channel=fs&q=when+actions+ar
+  \verb e&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=5epOV46QMcGAaPjxqqgC#channel=fs&q=vali
+  \verb dity+definition
+  \endverb
+\endentry
+
+\entry{hmAdmissible}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Haslum}{H.}%
+     {Patrik}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HP1}
+  \strng{fullhash}{HP1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb https://www.ida.liu.se/divisions/aiics/publications/Thesis-2006-Admissi
+  \verb ble-Heuristics-Automated.pdf
+  \endverb
+  \field{title}{Admissible Heuristics for Automated Planning}
+  \field{year}{2006}
+\endentry
+
+\entry{AdmissibleHeuristic}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Haslum}{H.}%
+     {Patrik}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HP1}
+  \strng{fullhash}{HP1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb https://www.aaai.org/Papers/AIPS/2000/AIPS00-015.pdf
+  \endverb
+  \field{title}{Admissible Heuristics for Optimal Planning}
+  \field{journaltitle}{Proceedings From AIPS}
+  \field{year}{2000}
+\endentry
+
+\entry{ConciseDomain}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Helmert}{H.}%
+     {Malte}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HM1}
+  \strng{fullhash}{HM1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb http://ac.els-cdn.com/S0004370208001926/1-s2.0-S0004370208001926-main.p
+  \verb df?_tid=87eb7262-3162-11e6-afeb-00000aacb35f&acdnat=1465821173_d97ddbe9
+  \verb a2703f51dda458b7b95fe002
+  \endverb
+  \field{pages}{503\bibrangedash 535}
+  \field{title}{Concise Finite-Domain Representation for PDDL Planning Tasks}
+  \field{volume}{173}
+  \field{journaltitle}{Artificial Intelligence}
+  \field{year}{2009}
+\endentry
+
+\entry{FDownwardDoc}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Helmert}{H.}%
+     {Malte}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HM1}
+  \strng{fullhash}{HM1}
+  \field{sortinit}{H}
+  \field{title}{Fast Downward Heuristic Documentation}
+  \verb{url}
+  \verb www.fast-downward.org/Doc/Heuristic
+  \endverb
+\endentry
+
+\entry{FastDownward}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Helmert}{H.}%
+     {Malte}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HM1}
+  \strng{fullhash}{HM1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb http://www.jair.org/media/1705/live-1705-2731-jair.pdf
+  \endverb
+  \field{pages}{191\bibrangedash 246}
+  \field{title}{The Fast Downward Planning System}
+  \field{volume}{26}
+  \field{journaltitle}{Artificial Intelligence Research}
+  \field{year}{2006}
+\endentry
+
+\entry{SATPLAN}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Henery~Kautz}{H.~K.}%
+     {Jorg~Hoffmann}{J.~H.}%
+     {}{}%
+     {Bart~Selman}{B.~S.}}%
+  }
+  \strng{namehash}{HKBSJH1}
+  \strng{fullhash}{HKBSJH1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb http://www.cs.rochester.edu/u/kautz/papers/kautz-satplan06.pdf
+  \endverb
+  \field{title}{SatPlan: Planning as Satisfiability}
+  \field{journaltitle}{Abstracts of the 5th International Planning Competition}
+  \field{year}{2006}
+\endentry
+
+\entry{HeuristicDomain}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hoffmann}{H.}%
+     {Jorg}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb https://www.ics.uci.edu/~dechter/courses/ics-271/fall-06/project/j.hoff
+  \verb mann00.pdf
+  \endverb
+  \field{title}{A Heuristic for Domain Independent Planning and its Use in an
+  Enforced Hill-Climbing Algorithm}
+  \field{year}{2000}
+\endentry
+
+\entry{AutomaticPlanning}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hoffmann}{H.}%
+     {Jorg}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{sortinit}{H}
+  \field{title}{Automatic Planning PDDL}
+  \verb{url}
+  \verb http://fai.cs.uni-saarland.de/teaching/winter13-14/planning-material/pl
+  \verb anning03-pddl-post-handout.pdf
+  \endverb
+\endentry
+
+\entry{FFPlanner}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hoffmann}{H.}%
+     {Jorg}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb http://www.cs.toronto.edu/~sheila/2542/s14/A1/hoffmannebel-FF-jair01.pd
+  \verb f
+  \endverb
+  \field{pages}{253\bibrangedash 302}
+  \field{title}{FF: The Fast-Forward Planning System}
+  \field{volume}{14}
+  \field{journaltitle}{Artificial Intelligence Research}
+  \field{year}{2001}
+\endentry
+
+\entry{IgnoringDeleteLists}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hoffmann}{H.}%
+     {Jorg}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb http://www.jair.org/media/1747/live-1747-2543-jair.pdf
+  \endverb
+  \field{pages}{685\bibrangedash 758}
+  \field{title}{Where 'Ignoring Delete Lists' Works: Local Search Topology in
+  Planning Benchmarks}
+  \field{volume}{24}
+  \field{journaltitle}{Artificial Intelligence Research}
+  \field{year}{2005}
+\endentry
+
+\entry{ICAPS}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {ICAPS}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{I2}
+  \strng{fullhash}{I2}
+  \field{sortinit}{I}
+  \field{title}{International Planning Competition}
+  \verb{url}
+  \verb http://www.icaps-conference.org/index.php/Main/Competitions
+  \endverb
+\endentry
+
+\entry{StochasticHillClimb}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jia-Hong~Wu}{J.-H.~W.}%
+     {Robert~Givan}{R.~G.}%
+     {}{}%
+     {Rajesh~Kalyanam}{R.~K.}}%
+  }
+  \strng{namehash}{JHWRKRG1}
+  \strng{fullhash}{JHWRKRG1}
+  \field{sortinit}{J}
+  \verb{doi}
+  \verb https://www.aaai.org/Papers/ICAPS/2008/ICAPS08-049.pdf
+  \endverb
+  \field{title}{Stochastic Enforced Hill-Climbing}
+  \field{journaltitle}{ICAPS}
+  \field{year}{2005}
+\endentry
+
+\entry{FFPlanningSystem}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jorg~Hoffmann}{J.~H.}%
+     {Bernhard~Nebel}{B.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JHBN1}
+  \strng{fullhash}{JHBN1}
+  \field{sortinit}{J}
+  \verb{doi}
+  \verb http://www.cs.toronto.edu/~sheila/2542/s14/A1/hoffmannebel-FF-jair01.pd
+  \verb f
+  \endverb
+  \field{pages}{253\bibrangedash 302}
+  \field{title}{The FF Planning System: Fast Plan Generation Through Heuristic
+  Search}
+  \field{volume}{14}
+  \field{journaltitle}{Artificial Intelligence Research}
+  \field{year}{2001}
+\endentry
+
+\entry{SurverySat}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jun~Gu}{J.~G.}%
+     {John~Franco}{J.~F.}%
+     {}{}%
+     {Paul W.~Purdon}{P.~W.~P.}}%
+  }
+  \strng{namehash}{JGPWPJF1}
+  \strng{fullhash}{JGPWPJF1}
+  \field{sortinit}{J}
+  \verb{doi}
+  \verb http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=67BBCE044D04F1
+  \verb 8F16567A9F3255B00C?doi=10.1.1.41.2697&rep=rep1&type=pdf
+  \endverb
+  \field{title}{Algorithms for the Satisfiability (SAT) Problem: A Survey}
+  \field{journaltitle}{DIMACS Series in Discrete Mathematics and Theoretical
+  Computer Science}
+  \field{year}{1996}
+\endentry
+
+\entry{BlackBox}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kautz}{K.}%
+     {Henry}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Selmen}{S.}%
+     {Bart}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KHSB1}
+  \strng{fullhash}{KHSB1}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb http://www.cs.rochester.edu/u/kautz/papers/aips98-kautz.ps
+  \endverb
+  \field{title}{Blackbox: A New Approach to the Application of Theorem Proving
+  to Problem Solving}
+  \field{journaltitle}{Workshop on Planning as Combinatorial Search}
+  \field{year}{1998}
+\endentry
+
+\entry{PlanningBook}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Malik~Ghallab}{M.~G.}%
+     {Paola~Traverso}{P.~T.}%
+     {}{}%
+     {Dana~Nau}{D.~N.}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MGDNPT1}
+  \strng{fullhash}{MGDNPT1}
+  \field{sortinit}{M}
+  \field{title}{Automated Planning, Theory and Practice}
+  \list{location}{1}{%
+    {San Francisco}%
+  }
+  \field{year}{2004}
+\endentry
+
+\entry{CasualGraph}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Malte~Helmert}{M.~H.}%
+     {Hector~Geffner}{H.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MHHG1}
+  \strng{fullhash}{MHHG1}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb http://www.dtic.upf.edu/~hgeffner/malte-icaps08.pdf
+  \endverb
+  \field{title}{Unifying the Casual Graph and Additive Heuristics}
+  \field{journaltitle}{Advancement of Artificial Intelligence}
+  \field{year}{2008}
+\endentry
+
+\entry{PDDL2.1}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Maria~Fox}{M.~F.}%
+     {Derek~Long}{D.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MFDL1}
+  \strng{fullhash}{MFDL1}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb https://www.jair.org/media/1129/live-1129-2132-jair.pdf
+  \endverb
+  \field{pages}{61\bibrangedash 124}
+  \field{title}{pddl2.1: An Extension to pddl for Expressing Temporal Planning
+  Domain}
+  \field{volume}{20}
+  \field{journaltitle}{Artificial Intelligence Research}
+  \field{year}{2003}
+\endentry
+
+\entry{Conjunctive}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mathematics}{M.}%
+     {Encyclopedia}{E.}%
+     {of}{o.}%
+     {}{}}%
+  }
+  \strng{namehash}{MEo1}
+  \strng{fullhash}{MEo1}
+  \field{sortinit}{M}
+  \field{title}{Conjunctive Normal Form}
+  \verb{url}
+  \verb http://www.encyclopediaofmath.org/index.php
+  \endverb
+\endentry
+
+\entry{1998IPC}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {McDermott}{M.}%
+     {Drew}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MD1}
+  \strng{fullhash}{MD1}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb http://www.aaai.org/ojs/index.php/aimagazine/article/view/1506/1405
+  \endverb
+  \field{number}{2}
+  \field{title}{The 1998 AI Planning Systems Competition}
+  \field{volume}{21}
+  \field{journaltitle}{AI Magazine}
+  \field{year}{1998}
+\endentry
+
+\entry{Nilson}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nilsson}{N.}%
+     {Nils~J}{N.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{NNJ1}
+  \strng{fullhash}{NNJ1}
+  \field{sortinit}{N}
+  \field{title}{Principles of Artificial Intelligence}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{HmHeuristic}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Patrik~Haslum}{P.~H.}%
+     {Hector~Geffner}{H.~G.}%
+     {}{}%
+     {Blai~Bonet}{B.~B.}}%
+  }
+  \strng{namehash}{PHBBHG1}
+  \strng{fullhash}{PHBBHG1}
+  \field{sortinit}{P}
+  \verb{doi}
+  \verb https://www.aaai.org/Papers/AAAI/2005/AAAI05-184.pdf
+  \endverb
+  \field{title}{New Admissible Heuristics for Domain-Independent Planning}
+  \field{year}{2005}
+\endentry
+
+\entry{Pearl}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pearl}{P.}%
+     {Judea}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison Wesely}%
+  }
+  \strng{namehash}{PJ1}
+  \strng{fullhash}{PJ1}
+  \field{sortinit}{P}
+  \field{title}{Heuristics: Intelligent Search Strategies for Computer Problem
+  Solving}
+  \list{location}{1}{%
+    {USA}%
+  }
+  \field{year}{1984}
+\endentry
+
+\entry{MinimumCostPaths}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Peter E.~Hart}{P.~E.~H.}%
+     {Bertram~Raphael}{B.~R.}%
+     {}{}%
+     {Nils J.~Nilsson}{N.~J.~N.}}%
+  }
+  \strng{namehash}{PEHNJNBR1}
+  \strng{fullhash}{PEHNJNBR1}
+  \field{sortinit}{P}
+  \verb{doi}
+  \verb http://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/astar.p
+  \verb df
+  \endverb
+  \field{number}{2}
+  \field{title}{A Formal Basis for the Heuristic Determination of Minimum Cost
+  Paths}
+  \field{volume}{4}
+  \field{journaltitle}{IEEE Transactions of Systems Science and Cybernetics}
+  \field{year}{1968}
+\endentry
+
+\entry{VAL}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {R.~Howey}{R.~H.}%
+     {M.~Fox}{M.~F.}%
+     {}{}%
+     {D.~Long}{D.~L.}}%
+  }
+  \strng{namehash}{RHDLMF1}
+  \strng{fullhash}{RHDLMF1}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.133.7467&rep=r
+  \verb ep1&type=pdf
+  \endverb
+  \field{pages}{294\bibrangedash 301}
+  \field{title}{VAL: automatic plan validation, continuous effects and mixed
+  initiative planning using PDDL}
+  \field{volume}{16}
+  \field{journaltitle}{Tools with Artificial Intelligence}
+  \field{year}{2004}
+\endentry
+
+\entry{Strips}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Richard E.~Fikes}{R.~E.~F.}%
+     {Nils J.~Nilsson}{N.~J.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{REFNJN1}
+  \strng{fullhash}{REFNJN1}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb http://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/strips.
+  \verb pdf
+  \endverb
+  \field{pages}{189\bibrangedash 208}
+  \field{title}{STRIPS: A New Approach to the Application of Theorem Proving to
+  Problem Solving}
+  \field{volume}{2}
+  \field{journaltitle}{Artificial Intelligence}
+  \field{year}{1971}
+\endentry
+
+\entry{ArvandHerd}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Richard~Valenzano}{R.~V.}%
+     {Martin~Muller}{M.~M.}%
+     {}{}%
+     {Hootan~Nakhost}{H.~N.}}%
+  }
+  \strng{namehash}{RVHNMM1}
+  \strng{fullhash}{RVHNMM1}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb https://webdocs.cs.ualberta.ca/~mmueller/ps/arvandherd.pdf
+  \endverb
+  \field{title}{ArvandHerd: Parallel Planning with a Portfolio}
+  \field{year}{2011}
+\endentry
+
+\entry{PDDL2.2}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stefan~Edelkamp}{S.~E.}%
+     {Jorg~Hoffmann}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SEJH1}
+  \strng{fullhash}{SEJH1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb https://www.researchgate.net/publication/228567744_PDDL2_2_The_language
+  \verb _for_the_classical_part_of_the_4th_international_planning_competition
+  \endverb
+  \field{title}{PDDL2.2: The Language for the Classical Part of the
+  International Planning Competition}
+  \field{year}{2004}
+\endentry
+
+\entry{AModernApproach}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stuart J.~Russell}{S.~J.~R.}%
+     {Peter~Norvig}{P.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Alan Apt}%
+  }
+  \strng{namehash}{SJRPN1}
+  \strng{fullhash}{SJRPN1}
+  \field{sortinit}{S}
+  \field{title}{Artificial Intelligence: A Modern Approach}
+  \list{location}{1}{%
+    {New Jersey}%
+  }
+  \field{year}{2004}
+\endentry
+
+\entry{InformedSearch}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stuart~Russell}{S.~R.}%
+     {Richard~Korf}{R.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SRRK1}
+  \strng{fullhash}{SRRK1}
+  \field{sortinit}{S}
+  \field{title}{Informed Search Algorithms}
+  \verb{url}
+  \verb https://courses.cs.washington.edu/courses/csep573/11wi/lectures/03-hsea
+  \verb rch.pdf
+  \endverb
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

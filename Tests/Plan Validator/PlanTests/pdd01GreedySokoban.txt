@@ -1,0 +1,423 @@
+Type-checking move
+...action passes type checking.
+Type-checking push-to-nongoal
+...action passes type checking.
+Type-checking push-to-goal
+...action passes type checking.
+Checking plan: pddl6.txt
+Plan to validate:
+
+Plan size: 41
+1:
+(move player-01 pos-6-4 pos-6-3 dir-up)
+ 
+2:
+(move player-01 pos-6-3 pos-5-3 dir-left)
+ 
+3:
+(move player-01 pos-5-3 pos-4-3 dir-left)
+ 
+4:
+(push-to-nongoal player-01 stone-02 pos-4-3 pos-4-4 pos-4-5 dir-down)
+ 
+5:
+(move player-01 pos-4-4 pos-4-3 dir-up)
+ 
+6:
+(move player-01 pos-4-3 pos-5-3 dir-right)
+ 
+7:
+(move player-01 pos-5-3 pos-6-3 dir-right)
+ 
+8:
+(move player-01 pos-6-3 pos-6-4 dir-down)
+ 
+9:
+(push-to-goal player-01 stone-03 pos-6-4 pos-5-4 pos-4-4 dir-left)
+ 
+10:
+(move player-01 pos-5-4 pos-5-3 dir-up)
+ 
+11:
+(move player-01 pos-5-3 pos-4-3 dir-left)
+ 
+12:
+(move player-01 pos-4-3 pos-3-3 dir-left)
+ 
+13:
+(move player-01 pos-3-3 pos-2-3 dir-left)
+ 
+14:
+(move player-01 pos-2-3 pos-2-4 dir-down)
+ 
+15:
+(move player-01 pos-2-4 pos-2-5 dir-down)
+ 
+16:
+(move player-01 pos-2-5 pos-3-5 dir-right)
+ 
+17:
+(push-to-nongoal player-01 stone-01 pos-3-5 pos-3-4 pos-3-3 dir-up)
+ 
+18:
+(push-to-nongoal player-01 stone-03 pos-3-4 pos-4-4 pos-5-4 dir-right)
+ 
+19:
+(move player-01 pos-4-4 pos-4-3 dir-up)
+ 
+20:
+(move player-01 pos-4-3 pos-5-3 dir-right)
+ 
+21:
+(move player-01 pos-5-3 pos-6-3 dir-right)
+ 
+22:
+(move player-01 pos-6-3 pos-6-4 dir-down)
+ 
+23:
+(push-to-goal player-01 stone-03 pos-6-4 pos-5-4 pos-4-4 dir-left)
+ 
+24:
+(push-to-goal player-01 stone-03 pos-5-4 pos-4-4 pos-3-4 dir-left)
+ 
+25:
+(push-to-goal player-01 stone-03 pos-4-4 pos-3-4 pos-2-4 dir-left)
+ 
+26:
+(move player-01 pos-3-4 pos-3-5 dir-down)
+ 
+27:
+(move player-01 pos-3-5 pos-3-6 dir-down)
+ 
+28:
+(move player-01 pos-3-6 pos-4-6 dir-right)
+ 
+29:
+(push-to-goal player-01 stone-02 pos-4-6 pos-4-5 pos-4-4 dir-up)
+ 
+30:
+(move player-01 pos-4-5 pos-3-5 dir-left)
+ 
+31:
+(move player-01 pos-3-5 pos-3-4 dir-up)
+ 
+32:
+(push-to-nongoal player-01 stone-02 pos-3-4 pos-4-4 pos-5-4 dir-right)
+ 
+33:
+(move player-01 pos-4-4 pos-4-3 dir-up)
+ 
+34:
+(move player-01 pos-4-3 pos-4-2 dir-up)
+ 
+35:
+(move player-01 pos-4-2 pos-3-2 dir-left)
+ 
+36:
+(push-to-goal player-01 stone-01 pos-3-2 pos-3-3 pos-3-4 dir-down)
+ 
+37:
+(move player-01 pos-3-3 pos-4-3 dir-right)
+ 
+38:
+(move player-01 pos-4-3 pos-5-3 dir-right)
+ 
+39:
+(move player-01 pos-5-3 pos-6-3 dir-right)
+ 
+40:
+(move player-01 pos-6-3 pos-6-4 dir-down)
+ 
+41:
+(push-to-goal player-01 stone-02 pos-6-4 pos-5-4 pos-4-4 dir-left)
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (at player-01 pos-6-4)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-6-4)
+
+Checking next happening (time 2)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-6-3)
+
+Checking next happening (time 3)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 4)
+Deleting (at player-01 pos-4-3)
+Deleting (at stone-02 pos-4-4)
+Deleting (clear pos-4-5)
+Deleting (at-goal stone-02)
+Adding (at player-01 pos-4-4)
+Adding (at stone-02 pos-4-5)
+Adding (clear pos-4-3)
+
+Checking next happening (time 5)
+Deleting (at player-01 pos-4-4)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-4-4)
+
+Checking next happening (time 6)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 7)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 8)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-6-4)
+Adding (at player-01 pos-6-4)
+Adding (clear pos-6-3)
+
+Checking next happening (time 9)
+Deleting (at player-01 pos-6-4)
+Deleting (at stone-03 pos-5-4)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-5-4)
+Adding (at stone-03 pos-4-4)
+Adding (clear pos-6-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 10)
+Deleting (at player-01 pos-5-4)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-5-4)
+
+Checking next happening (time 11)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 12)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-3-3)
+Adding (at player-01 pos-3-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 13)
+Deleting (at player-01 pos-3-3)
+Deleting (clear pos-2-3)
+Adding (at player-01 pos-2-3)
+Adding (clear pos-3-3)
+
+Checking next happening (time 14)
+Deleting (at player-01 pos-2-3)
+Deleting (clear pos-2-4)
+Adding (at player-01 pos-2-4)
+Adding (clear pos-2-3)
+
+Checking next happening (time 15)
+Deleting (at player-01 pos-2-4)
+Deleting (clear pos-2-5)
+Adding (at player-01 pos-2-5)
+Adding (clear pos-2-4)
+
+Checking next happening (time 16)
+Deleting (at player-01 pos-2-5)
+Deleting (clear pos-3-5)
+Adding (at player-01 pos-3-5)
+Adding (clear pos-2-5)
+
+Checking next happening (time 17)
+Deleting (at player-01 pos-3-5)
+Deleting (at stone-01 pos-3-4)
+Deleting (clear pos-3-3)
+Deleting (at-goal stone-01)
+Adding (at player-01 pos-3-4)
+Adding (at stone-01 pos-3-3)
+Adding (clear pos-3-5)
+
+Checking next happening (time 18)
+Deleting (at player-01 pos-3-4)
+Deleting (at stone-03 pos-4-4)
+Deleting (clear pos-5-4)
+Deleting (at-goal stone-03)
+Adding (at player-01 pos-4-4)
+Adding (at stone-03 pos-5-4)
+Adding (clear pos-3-4)
+
+Checking next happening (time 19)
+Deleting (at player-01 pos-4-4)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-4-4)
+
+Checking next happening (time 20)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 21)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 22)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-6-4)
+Adding (at player-01 pos-6-4)
+Adding (clear pos-6-3)
+
+Checking next happening (time 23)
+Deleting (at player-01 pos-6-4)
+Deleting (at stone-03 pos-5-4)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-5-4)
+Adding (at stone-03 pos-4-4)
+Adding (clear pos-6-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 24)
+Deleting (at player-01 pos-5-4)
+Deleting (at stone-03 pos-4-4)
+Deleting (clear pos-3-4)
+Adding (at player-01 pos-4-4)
+Adding (at stone-03 pos-3-4)
+Adding (clear pos-5-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 25)
+Deleting (at player-01 pos-4-4)
+Deleting (at stone-03 pos-3-4)
+Deleting (clear pos-2-4)
+Adding (at player-01 pos-3-4)
+Adding (at stone-03 pos-2-4)
+Adding (clear pos-4-4)
+Adding (at-goal stone-03)
+
+Checking next happening (time 26)
+Deleting (at player-01 pos-3-4)
+Deleting (clear pos-3-5)
+Adding (at player-01 pos-3-5)
+Adding (clear pos-3-4)
+
+Checking next happening (time 27)
+Deleting (at player-01 pos-3-5)
+Deleting (clear pos-3-6)
+Adding (at player-01 pos-3-6)
+Adding (clear pos-3-5)
+
+Checking next happening (time 28)
+Deleting (at player-01 pos-3-6)
+Deleting (clear pos-4-6)
+Adding (at player-01 pos-4-6)
+Adding (clear pos-3-6)
+
+Checking next happening (time 29)
+Deleting (at player-01 pos-4-6)
+Deleting (at stone-02 pos-4-5)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-4-5)
+Adding (at stone-02 pos-4-4)
+Adding (clear pos-4-6)
+Adding (at-goal stone-02)
+
+Checking next happening (time 30)
+Deleting (at player-01 pos-4-5)
+Deleting (clear pos-3-5)
+Adding (at player-01 pos-3-5)
+Adding (clear pos-4-5)
+
+Checking next happening (time 31)
+Deleting (at player-01 pos-3-5)
+Deleting (clear pos-3-4)
+Adding (at player-01 pos-3-4)
+Adding (clear pos-3-5)
+
+Checking next happening (time 32)
+Deleting (at player-01 pos-3-4)
+Deleting (at stone-02 pos-4-4)
+Deleting (clear pos-5-4)
+Deleting (at-goal stone-02)
+Adding (at player-01 pos-4-4)
+Adding (at stone-02 pos-5-4)
+Adding (clear pos-3-4)
+
+Checking next happening (time 33)
+Deleting (at player-01 pos-4-4)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-4-4)
+
+Checking next happening (time 34)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-4-2)
+Adding (at player-01 pos-4-2)
+Adding (clear pos-4-3)
+
+Checking next happening (time 35)
+Deleting (at player-01 pos-4-2)
+Deleting (clear pos-3-2)
+Adding (at player-01 pos-3-2)
+Adding (clear pos-4-2)
+
+Checking next happening (time 36)
+Deleting (at player-01 pos-3-2)
+Deleting (at stone-01 pos-3-3)
+Deleting (clear pos-3-4)
+Adding (at player-01 pos-3-3)
+Adding (at stone-01 pos-3-4)
+Adding (clear pos-3-2)
+Adding (at-goal stone-01)
+
+Checking next happening (time 37)
+Deleting (at player-01 pos-3-3)
+Deleting (clear pos-4-3)
+Adding (at player-01 pos-4-3)
+Adding (clear pos-3-3)
+
+Checking next happening (time 38)
+Deleting (at player-01 pos-4-3)
+Deleting (clear pos-5-3)
+Adding (at player-01 pos-5-3)
+Adding (clear pos-4-3)
+
+Checking next happening (time 39)
+Deleting (at player-01 pos-5-3)
+Deleting (clear pos-6-3)
+Adding (at player-01 pos-6-3)
+Adding (clear pos-5-3)
+
+Checking next happening (time 40)
+Deleting (at player-01 pos-6-3)
+Deleting (clear pos-6-4)
+Adding (at player-01 pos-6-4)
+Adding (clear pos-6-3)
+
+Checking next happening (time 41)
+Deleting (at player-01 pos-6-4)
+Deleting (at stone-02 pos-5-4)
+Deleting (clear pos-4-4)
+Adding (at player-01 pos-5-4)
+Adding (at stone-02 pos-4-4)
+Adding (clear pos-6-4)
+Adding (at-goal stone-02)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 41 
+
+Successful plans:
+Value: 41
+ pddl6.txt 41 
+

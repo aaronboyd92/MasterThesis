@@ -1,0 +1,817 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23602.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23605.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23607.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23613.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23610.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23615.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23620.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23622.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23625.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23628.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23631.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23634.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23638.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23640.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23643.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23646.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23649.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23652.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23656.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23659.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23661.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23665.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23668.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23671.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23674.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23677.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23679.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23682.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23685.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid23689.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25895.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25898.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25900.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25903.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25906.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25909.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25913.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25916.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25918.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25921.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25927.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25924.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25933.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25931.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25937.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25939.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25943.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25945.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25949.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25951.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25954.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25957.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25960.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25963.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25967.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25969.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25972.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25976.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25979.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid25981.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28497.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28500.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28502.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28505.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28508.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28511.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28557.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28554.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28559.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28562.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28565.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28568.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28572.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28574.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28578.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28580.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28583.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28586.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28590.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28592.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28598.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28602.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28595.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28605.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28608.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28611.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28613.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28617.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28620.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid28623.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30862.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30865.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30867.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30870.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30873.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30876.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30880.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30883.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30885.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30888.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30891.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30895.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30898.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30904.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30901.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30906.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30910.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30912.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30915.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30919.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30922.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30924.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30927.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30930.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30933.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30937.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30939.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30943.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30945.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid30948.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1819.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1822.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1824.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1827.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1830.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1833.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1837.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1840.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1843.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1845.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1850.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1853.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1856.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1860.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1863.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1865.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1869.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1871.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1874.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1878.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1883.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1885.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1888.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1892.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1895.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1898.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1902.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1904.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1907.log
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2812805120 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/boyd/Aaron/pddl4jServer/hs_err_pid1910.log
+
+Unexpected error java.lang.NullPointerException
+	at fr.uga.pddl4j.parser.Parser.checkTypesDeclaration(Parser.java:598) ~[pddl4j-3.1.0.jar:3.1.0]
+	at fr.uga.pddl4j.parser.Parser.parse(Parser.java:275) [pddl4j-3.1.0.jar:3.1.0]
+	at fr.uga.pddl4j.planner.ProblemFactory.parse(ProblemFactory.java:74) [pddl4j-3.1.0.jar:3.1.0]
+	at fr.uga.pddl4j.planners.hsp.HSP.main(HSP.java:315) [pddl4j-3.1.0.jar:3.1.0]
+Lexical error at line 0, column 0, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p01-domain.pddl) : unexpected token "".
+Was expecting:
+    "(" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p03-domain.pddl) : unexpected token "(".Lexical error at line 43, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p03.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p04-domain.pddl) : unexpected token "(".Lexical error at line 50, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p04.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p06-domain.pddl) : unexpected token "(".Lexical error at line 65, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p06.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p05-domain.pddl) : unexpected token "(".Lexical error at line 57, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p05.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p02-domain.pddl) : unexpected token "(".Lexical error at line 35, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p02.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p08-domain.pddl) : unexpected token "(".Lexical error at line 79, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p08.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p07-domain.pddl) : unexpected token "(".Lexical error at line 72, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p07.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p12-domain.pddl) : unexpected token "(".Lexical error at line 37, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p12.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p10-domain.pddl) : unexpected token "(".Lexical error at line 93, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p10.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p11-domain.pddl) : unexpected token "(".Lexical error at line 29, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p11.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p09-domain.pddl) : unexpected token "(".Lexical error at line 86, column 30, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p09.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p15-domain.pddl) : unexpected token "(".Lexical error at line 62, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p15.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p17-domain.pddl) : unexpected token "(".Lexical error at line 79, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p17.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p13-domain.pddl) : unexpected token "(".Lexical error at line 46, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p13.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p16-domain.pddl) : unexpected token "(".Lexical error at line 71, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p16.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p14-domain.pddl) : unexpected token "(".Lexical error at line 54, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p14.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p18-domain.pddl) : unexpected token "(".Lexical error at line 87, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p18.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p20-domain.pddl) : unexpected token "(".Lexical error at line 103, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p20.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p21-domain.pddl) : unexpected token "(".Lexical error at line 29, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p21.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p23-domain.pddl) : unexpected token "(".Lexical error at line 46, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p23.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p19-domain.pddl) : unexpected token "(".Lexical error at line 95, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p19.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p24-domain.pddl) : unexpected token "(".Lexical error at line 54, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p24.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p22-domain.pddl) : unexpected token "(".Lexical error at line 37, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p22.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p26-domain.pddl) : unexpected token "(".Lexical error at line 71, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p26.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p27-domain.pddl) : unexpected token "(".Lexical error at line 79, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p27.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p25-domain.pddl) : unexpected token "(".Lexical error at line 62, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p25.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p29-domain.pddl) : unexpected token "(".Lexical error at line 95, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p29.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p30-domain.pddl) : unexpected token "(".Lexical error at line 103, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p30.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...Lexical error at line 18, column 3, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p28-domain.pddl) : unexpected token "(".Lexical error at line 87, column 34, file (pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p28.pddl) : unexpected token "(".
+Was expecting:
+    ")" ...
