@@ -1,3 +1,4 @@
 # MasterThesis
 
-Inside this folder you will find my Thesis titled 'template-report.pdf' 
+Inside the folder MastersThesis you will find my Thesis titled 'template-report.pdf' 
+Also my presentation for the defence. 
