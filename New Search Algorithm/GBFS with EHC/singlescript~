@@ -1,9 +1,0 @@
-#!/bin/bash
-set Dom = pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/pipesworld/*domain*.pddl
-
-for f in pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/pipesworld/p{01..35}.pddl do
-
-	java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms2048m -Xmx2048m fr.uga.pddl4j.planners.hsp.HSP -o $Dom -f $f -i 8 >> AstarPipesworld.txt
-
-done
-

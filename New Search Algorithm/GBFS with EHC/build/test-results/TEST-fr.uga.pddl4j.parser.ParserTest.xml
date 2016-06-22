@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="fr.uga.pddl4j.parser.ParserTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-06-09T14:38:50" hostname="TheKing" time="0.013">
+<testsuite name="fr.uga.pddl4j.parser.ParserTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-06-22T09:51:29" hostname="TheKing" time="0.007">
   <properties/>
-  <testcase name="testParserIPC1" classname="fr.uga.pddl4j.parser.ParserTest" time="0.003"/>
+  <testcase name="testParserIPC1" classname="fr.uga.pddl4j.parser.ParserTest" time="0.002"/>
   <testcase name="testParserIPC2" classname="fr.uga.pddl4j.parser.ParserTest" time="0.0"/>
-  <testcase name="testParserIPC3" classname="fr.uga.pddl4j.parser.ParserTest" time="0.002"/>
+  <testcase name="testParserIPC3" classname="fr.uga.pddl4j.parser.ParserTest" time="0.0"/>
   <testcase name="testParserIPC4" classname="fr.uga.pddl4j.parser.ParserTest" time="0.001"/>
   <testcase name="testParserIPC5" classname="fr.uga.pddl4j.parser.ParserTest" time="0.0"/>
-  <testcase name="testParserIPC6" classname="fr.uga.pddl4j.parser.ParserTest" time="0.001"/>
-  <testcase name="testParserIPC7" classname="fr.uga.pddl4j.parser.ParserTest" time="0.0"/>
+  <testcase name="testParserIPC6" classname="fr.uga.pddl4j.parser.ParserTest" time="0.0"/>
+  <testcase name="testParserIPC7" classname="fr.uga.pddl4j.parser.ParserTest" time="0.001"/>
   <testcase name="testParserIPC8" classname="fr.uga.pddl4j.parser.ParserTest" time="0.0"/>
   <system-out><![CDATA[missing Benchmark directory: IPC1 test skipped !
 missing Benchmark directory: IPC2 test skipped !
