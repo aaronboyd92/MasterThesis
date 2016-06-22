@@ -1,0 +1,5 @@
+fr.uga.pddl4j.encoding
+fr.uga.pddl4j.heuristics.relaxation
+fr.uga.pddl4j.parser
+fr.uga.pddl4j.planners.hsp
+fr.uga.pddl4j.util

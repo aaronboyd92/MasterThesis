@@ -1,0 +1,71 @@
+#!/bin/bash
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/gripper/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/gripper/p{}.pddl -i 8 '>>' AstarGripper.txt &&
+printf "IPC1 Gripper finished "
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/logistics/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/logistics/p{}.pddl -i 8 '>>' AstarLogistics.txt &&
+printf "IPC1 Logistics finished"
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/mystery/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/mystery/p{}.pddl -i 8 '>>' AstarMystery.txt &&
+printf "IPC1 Mystery finished"
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/mprime/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/mprime/p{}.pddl -i 8 '>>' AstarMprime.txt &&
+printf "IPC1 MPrime finished"
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/movie/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc1/movie/p{}.pddl -i 8 '>>' AstarMovie.txt &&
+printf "IPC1 Move finished"
+seq -w 60 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/freecell/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/freecell/p{}.pddl -i 8 '>>' AstarFreecell.txt &&
+printf "IPC2 Freecell finished "
+seq -w 150 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/elevator/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/elevator/p{}.pddl -i 8 '>>' AstarElevator.txt &&
+printf "IPC2 Elevator finished "
+seq -w 35 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/blocksworld/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/blocksworld/p{}.pddl -i 8 '>>' AstarBlocksworld.txt &&
+printf "IPC2 Blocksworld finished "
+seq -w 500 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/schedule/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc2/schedule/p{}.pddl -i 8 '>>' AstarSchedule.txt &&
+printf "IPC2 Schedule finished "
+printf "IPC2 has finished"
+seq -w 22 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/depots/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/depots/p{}.pddl -i 8 '>>' AstarDepots.txt &&
+printf "IPC3 Depots finished "
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/driverlog/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/driverlog/p{}.pddl -i 8 '>>' AstarDriverlog.txt &&
+printf "IPC3 Depots finished "
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/rover/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/rover/p{}.pddl -i 8 '>>' AstarRover.txt &&
+printf "IPC3 Rover finished "
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/satellite/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/satellite/p{}.pddl -i 8 '>>' AstarSatellite.txt &&
+printf "IPC3 Satellite finished "
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/zenotravel/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc3/zenotravel/p{}.pddl -i 8 '>>' AstarZenotravel.txt &&
+printf "IPC3 Zeno finished "
+printf "IPC3 has finished"
+seq -w 50 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/pipesworld/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/pipesworld/p{}.pddl -i 8 '>>' AstarPipesworld.txt &&
+printf "IPC4 Pipesworld finished "
+seq -w 50 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/airport/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/airport/p{}.pddl -i 8 '>>' AstarAirport.txt && 
+printf "IPC4 Airport finished "
+seq -w 14 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/optical-telegraph/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/optical-telegraph/p{}.pddl -i 8 '>>' AstarOpticalTelegraph.txt && 
+printf "IPC4 Optical Telegraph finished "
+seq -w 29 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/philosophers/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/philosophers/p{}.pddl -i 8 '>>' AstarPhilosophers.txt &&
+printf "IPC4 Philosophers finished "
+seq -w 50 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/psr/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc4/psr/p{}.pddl -i 8 '>>' AstarPsr.txt &&
+printf "IPC4 Psr finished "
+printf "IPC4 has finished"
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/storage/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/storage/p{}.pddl -i 8 '>>' AstarStorage.txt &&
+printf "IPC5 Storage finished "
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/openstacks/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/openstacks/p{}.pddl -i 8 '>>' AstarOpenstacks.txt &&
+printf "IPC5 Openstack finished "
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/pathways/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/pathways/p{}.pddl -i 8 '>>' AstarPathways.txt &&
+printf "IPC5 Pathways finished "
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/tpp/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/tpp/p{}.pddl -i 8 '>>' AstarTpp.txt &&
+printf "IPC5 Tpp finished "
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/truck/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc5/truck/p{}.pddl -i 8 '>>' AstarTruck.txt &&
+printf "IPC5 Truck finished "
+printf "IPC5 has finished"
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/pegsol/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/pegsol/p{}.pddl -i 8 '>>' AstarPegsol.txt &&
+printf "IPC6 Pegsol finished "
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/sokoban/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/sokoban/p{}.pddl -i 8 '>>' AstarSokoban.txt &&
+printf "IPC6 Sokoban finished "
+seq -w 30 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p{}-domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc6/transport/p{}.pddl -i 8 '>>' AstarTransport.txt &&
+printf "IPC6 Transport finished "
+printf "IPC6 has finished"
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc7/nomystery/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc7/nomystery/p{}.pddl -i 8 '>>' AstarNomystery.txt &&
+printf "IPC7 Nomystery finished "
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc7/parking/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc7/parking/p{}.pddl -i 8 '>>' AstarParking.txt &&
+printf "IPC7 Parking finished "
+printf "IPC7 has finished"
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc8/childsnack/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc8/childsnack/p{}.pddl -i 8 '>>' AstarChildsnack.txt &&
+printf "IPC8 Childsnack finished "
+seq -w 20 | parallel -k -j6 java -javaagent:build/libs/pddl4j-3.1.0.jar -server -Xms8048m -Xmx8048m fr.uga.pddl4j.planners.hsp.HSP -o pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc8/thoughtful/domain.pddl -f pddl/benchmarks_STRIPS/benchmarks_STRIPS/ipc8/thoughtful/p{}.pddl -i 8 '>>' AstarThoughtful.txt &&
+printf "IPC8 Thoughtful finished "
+printf "IPC8 has finished"
+printf "Tasks have all finished"

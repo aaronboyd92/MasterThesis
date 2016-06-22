@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.15">
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/BitEncoding.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/CodedProblem.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/Constants.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/Encoder.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/Inertia.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/Instantiation.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/IntEncoding.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/IntMatrix.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/IntOp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/PostInstantiation.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/PreInstantiation.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/encoding/StringEncoder.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/ConversionException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/EncodeOperatorException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/FatalException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/MalformedExpException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/NullParameterException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/ParseException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/UnexpectedExpressionException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/exceptions/UsageException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/AbstractHeuristic.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/AdjustedSum.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/AdjustedSum2.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/AjustedSum2M.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/Combo.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/CriticalPath.java">
+<error line="19" severity="warning" message="&apos;package&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="20" severity="warning" message="&apos;import&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="25" severity="warning" message="&apos;java.util.ArrayList&apos; should be separated from previous import group." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="28" severity="warning" message="Line is longer than 120 characters (found 145)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="33" severity="warning" message="&apos;CLASS_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="34" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="36" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="20" severity="warning" message="Member name &apos;k&apos; must match pattern &apos;^[a-z][a-zA-Z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="40" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" severity="warning" message="&apos;ctor def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" severity="warning" message="&apos;ctor def rcurly&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="52" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="55" severity="warning" message="&apos;for&apos; have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="7" severity="warning" message="Local variable name &apos;nb_relevant_facts&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="59" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="60" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="61" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="62" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="63" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="64" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="64" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="64" column="13" severity="warning" message="Local variable name &apos;p_goal&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="65" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="65" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 2, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="65" column="13" severity="warning" message="Local variable name &apos;n_goal&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="68" column="11" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="68" column="31" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="70" severity="warning" message="&apos;if&apos; child have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="70" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="71" severity="warning" message="&apos;for&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="72" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="73" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="73" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="74" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" severity="warning" message="&apos;if&apos; child have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="77" severity="warning" message="&apos;for&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="77" column="12" severity="warning" message="WhitespaceAround: &apos;for&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="78" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="79" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="79" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="80" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="82" severity="warning" message="&apos;for&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="83" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="83" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="84" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="84" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="85" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="85" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="86" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="86" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="87" severity="warning" message="&apos;for&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="88" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="89" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="89" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="90" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="92" severity="warning" message="&apos;for&apos; have incorrect indentation level 9, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="93" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="94" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="94" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="95" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="97" severity="warning" message="Comment has incorrect indentation level 9, expected is 8, indentation should be the same level as line 98." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="98" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="98" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="99" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="99" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="100" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="100" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="101" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="101" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="102" severity="warning" message="&apos;for&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="103" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="103" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="104" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="104" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="105" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="106" severity="warning" message="&apos;for&apos; child have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="106" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="107" severity="warning" message="&apos;for&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="108" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="109" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="109" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="110" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="111" severity="warning" message="Comment has incorrect indentation level 8, expected is 11, indentation should be the same level as line 112." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="112" severity="warning" message="&apos;if&apos; have incorrect indentation level 11, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="112" column="14" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="112" column="36" severity="warning" message="WhitespaceAround: &apos;!=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="112" column="63" severity="warning" message="WhitespaceAround: &apos;==&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="112" column="65" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="113" severity="warning" message="Comment has incorrect indentation level 14, expected is 16, indentation should be the same level as line 114." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="114" severity="warning" message="&apos;if&apos; child have incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="114" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="115" severity="warning" message="&apos;if&apos; child have incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="115" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 16, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="116" severity="warning" message="&apos;if rcurly&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="117" severity="warning" message="&apos;for&apos; child have incorrect indentation level 17, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="118" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="120" column="10" severity="warning" message="WhitespaceAround: &apos;else&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="120" column="10" severity="warning" message="WhitespaceAround: &apos;}&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="120" column="14" severity="warning" message="WhitespaceAround: &apos;else&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="120" column="14" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="122" severity="warning" message="&apos;else&apos; child have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="122" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="123" severity="warning" message="&apos;else&apos; child have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="123" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="125" severity="warning" message="&apos;else&apos; child have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="125" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="126" severity="warning" message="&apos;for&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="126" column="12" severity="warning" message="WhitespaceAround: &apos;for&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="126" column="25" severity="warning" message="WhitespaceAround: &apos;&lt;&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="126" column="26" severity="warning" message="WhitespaceAround: &apos;&lt;&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="126" column="36" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="127" severity="warning" message="&apos;for&apos; child have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="127" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="128" severity="warning" message="&apos;for&apos; have incorrect indentation level 12, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="128" column="16" severity="warning" message="WhitespaceAround: &apos;for&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="128" column="22" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="128" column="23" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="128" column="27" severity="warning" message="WhitespaceAround: &apos;&lt;&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="128" column="28" severity="warning" message="WhitespaceAround: &apos;&lt;&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="128" column="35" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="129" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="129" severity="warning" message="&apos;if&apos; have incorrect indentation level 12, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="129" column="15" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="129" column="20" severity="warning" message="WhitespaceAround: &apos;&amp;&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="129" column="22" severity="warning" message="WhitespaceAround: &apos;&lt;&lt;&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="129" column="24" severity="warning" message="WhitespaceAround: &apos;&lt;&lt;&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="129" column="29" severity="warning" message="WhitespaceAround: &apos;&gt;&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="131" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="133" severity="warning" message="&apos;if&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="133" column="11" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="135" severity="warning" message="Comment has incorrect indentation level 8, expected is 9, indentation should be the same level as line 136." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="137" severity="warning" message="&apos;if rcurly&apos; have incorrect indentation level 8, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="138" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="141" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 6, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="142" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 1, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/FastForward.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/GraphHeuristic.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/Heuristic.java">
+<error line="102" severity="warning" message="Block comment has incorrect indentation level 9, expected is 8, indentation should be the same level as line 105." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/HeuristicToolKit.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/Max.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/RelaxedGraphHeuristic.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/SetLevel.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/Sum.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/heuristics/relaxation/SumMutex.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Connective.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/DerivedPredicate.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Domain.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/ErrorManager.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Exp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/MalformedExpException.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Message.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/NamedTypedList.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Op.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Parser.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Problem.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/RequireKey.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/Symbol.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/parser/TypedSymbol.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/planner/AbstractPlanner.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/planner/Planner.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/planner/ProblemFactory.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/planner/Statistics.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/planners/hsp/HSP.java">
+<error line="105" severity="warning" message="&apos;VARIABLE_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="153" severity="warning" message="Empty catch block." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck"/>
+<error line="188" severity="warning" message="Comment has incorrect indentation level 8, expected is 9, indentation should be the same level as line 189." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="189" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 9, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="189" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 9, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="190" severity="warning" message="&apos;if&apos; have incorrect indentation level 10, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="190" column="13" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="190" column="27" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="191" severity="warning" message="&apos;if&apos; child have incorrect indentation level 11, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="191" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 11, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="192" severity="warning" message="&apos;if rcurly&apos; have incorrect indentation level 11, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="194" severity="warning" message="&apos;if&apos; have incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="194" column="10" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="194" column="24" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="195" severity="warning" message="&apos;if&apos; child have incorrect indentation level 7, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="195" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 7, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="197" severity="warning" message="&apos;if rcurly&apos; have incorrect indentation level 6, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="198" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="198" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="251" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="251" column="21" severity="warning" message="Member name &apos;nb_states&apos; must match pattern &apos;^[a-z][a-zA-Z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="252" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="252" column="21" severity="warning" message="Member name &apos;max_depth&apos; must match pattern &apos;^[a-z][a-zA-Z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="254" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 3, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="254" column="61" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="255" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="255" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="258" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="268" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="269" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="270" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="271" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="272" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="272" column="16" severity="warning" message="Local variable name &apos;best_heuristic&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="273" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="274" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="275" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="276" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="276" column="17" severity="warning" message="Local variable name &apos;dead_end_free&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="277" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="278" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="279" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="280" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="281" severity="warning" message="Comment has incorrect indentation level 24, expected is 3, indentation should be the same level as line 282." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="282" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="283" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="285" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="286" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="287" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="288" severity="warning" message="Comment has incorrect indentation level 4, expected is 16, indentation should be the same level as line 289." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="288" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="292" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="292" column="19" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="294" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="295" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="296" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="297" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="298" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="299" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="300" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="301" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="302" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="303" severity="warning" message="&apos;while rcurly&apos; have incorrect indentation level 24, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="304" severity="warning" message="&apos;while rcurly&apos; have incorrect indentation level 20, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="306" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="306" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="308" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="318" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="322" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="330" severity="warning" message="&apos;for&apos; child have incorrect indentation level 11, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="330" severity="warning" message="&apos;method call&apos; child have incorrect indentation level 11, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="344" column="17" severity="warning" message="Local variable name &apos;heuristic_value&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="345" column="15" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="345" column="53" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="354" severity="warning" message="&apos;for rcurly&apos; have incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="358" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="358" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 6, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="380" severity="warning" message="Comment has incorrect indentation level 8, expected is 9, indentation should be the same level as line 381." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="381" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 9, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="381" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 9, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="400" severity="warning" message="&apos;if&apos; have incorrect indentation level 16, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="400" column="19" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="400" column="55" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="401" severity="warning" message="&apos;if&apos; child have incorrect indentation level 20, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="413" column="27" severity="warning" message="WhitespaceAround: &apos;if&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="413" column="59" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="414" column="69" severity="warning" message="WhitespaceAround: &apos;+&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="430" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="430" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="432" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 12, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="666" severity="warning" message="&apos;class def rcurly&apos; have incorrect indentation level 4, expected level should be 0." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/planners/hsp/Node.java">
+<error line="23" severity="warning" message="&apos;java.util.LinkedHashSet&apos; should be separated from previous import group." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="32" column="41" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="41" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="24" severity="warning" message="Member name &apos;heuristic_value&apos; must match pattern &apos;^[a-z][a-zA-Z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="63" severity="warning" message="&apos;CTOR_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="100" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="100" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="167" severity="warning" message="Block comment has incorrect indentation level 8, expected is 4, indentation should be the same level as line 172." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="173" column="5" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="176" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="179" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="179" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="184" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="192" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="195" column="5" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/AbstractCodedOp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/AbstractPlan.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/BitExp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/BitMatrix.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/BitOp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/BitState.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/BitVector.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/CodedOp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/CondBitExp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/IntExp.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/MemoryAgent.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/ParallelPlan.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/Plan.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/SequentialPlan.java">
+</file>
+<file name="/home/aaron/Documents/University/Project/ProjectNetbeans/pddl4j/src/main/java/fr/uga/pddl4j/util/TemporalPlan.java">
+</file>
+</checkstyle>
