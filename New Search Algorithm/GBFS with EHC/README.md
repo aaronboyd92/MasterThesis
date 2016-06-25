@@ -3,12 +3,12 @@
 
 ###1. Contact
 
-- Damien Pellier (damien.pellier@imag.fr)
-- http://lig-membres.imag.fr/pellier/
+Aaron Boyd - aaronboyd1992 AT hotmail.com
 
 ###2. Description
 
 PDDL4J is an open source library under LGPL license.
+Instead of A* for the search algorithm, this version has been replaced by Greedy Best First Search with Enforced Hill Climbing [Jorg Hoffmann]
 
 The purpose of PDDL4J is to facilitate the development of JAVA tools for
 Automated Planning based on PDDL language (Planning Domain Description
